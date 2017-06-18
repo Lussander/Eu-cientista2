@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Comandos_Personagens</name>
+    <events>
+        <variable constant="0" name="personagem" sid="171128921284823" static="0" type="number">0</variable>
+        <variable constant="0" name="travar" sid="433357458183321" static="0" type="number">0</variable>
+        <variable constant="0" name="posicao" sid="445275324813356" static="0" type="number">0</variable>
+        <event-block sid="250849105906274">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="336807133923295" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="924009700834545" type="Sprite27">
+                    <param id="0" name="X">Sprite23.X</param>
+                    <param id="1" name="Y">Sprite23.Y</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="927454857501454" type="System">
+                    <param id="0" name="Width">550</param>
+                    <param id="1" name="Height">400</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="926130586020235">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="969123050901845" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="328266166453129" type="System">
+                    <param id="0" name="Variable">personagem</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="912816153333572" type="System">
+                    <param id="0" name="Variable">posicao</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="248017218643674" type="System">
+                    <param id="0" name="Variable">travar</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="787248178192356">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="875180260597644" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="361913185219910" type="Audio">
+                    <param id="0" name="Audio file">Clicar_menu3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="261374647185893" type="System">
+                    <param id="0" name="Layout">Menu2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="912564051161839">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="440642028003039" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Jogar</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="788268766338167" type="System">
+                    <param id="0" name="Variable">travar</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="898893291991789" type="Audio">
+                    <param id="0" name="Audio file">Clicar_menu3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="650790587674391" type="Audio">
+                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="769097226506974" type="System">
+                    <param id="0" name="Layout">Cutscene 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" disabled="1" sid="417408489791948" title="Direita">
+            <sub-events>
+                <event-block disabled="1" sid="194129914051333">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="170439601270549" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="742232716327649" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="601255698238178" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="140494974511213" type="Sprite27">
+                            <param id="0" name="X">Sprite24.X</param>
+                            <param id="1" name="Y">Sprite24.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="203310847965199">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="726514275299185" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="362530200610056" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="145388436657071" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="276204170651738" type="Sprite27">
+                            <param id="0" name="X">Sprite25.X</param>
+                            <param id="1" name="Y">Sprite25.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="382591814141050">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="348321408769870" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="722991671356275" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="777967227693312" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="235885533441600" type="Sprite27">
+                            <param id="0" name="X">Sprite26.X</param>
+                            <param id="1" name="Y">Sprite26.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="959311916520358">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="174422966564753" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="725356506754583" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="417020428039549" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="190565518659105" type="Sprite27">
+                            <param id="0" name="X">Sprite23.X</param>
+                            <param id="1" name="Y">Sprite23.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" disabled="1" sid="915711890537149" title="Esquerda">
+            <sub-events>
+                <event-block disabled="1" sid="571392485499239">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="987262891563760" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="719470982995621" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="391063545397287" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="457978819818979" type="Sprite27">
+                            <param id="0" name="X">Sprite26.X</param>
+                            <param id="1" name="Y">Sprite26.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="439732627864975">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="269074266161335" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="437048431577849" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="291228297039997" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="714275214499469" type="Sprite27">
+                            <param id="0" name="X">Sprite25.X</param>
+                            <param id="1" name="Y">Sprite25.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="906069209299132">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="735683861261393" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="294990735552484" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="198819919055722" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="240675415085701" type="Sprite27">
+                            <param id="0" name="X">Sprite24.X</param>
+                            <param id="1" name="Y">Sprite24.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="770245217736916">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="871182347838619" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="634453115835702" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="838728565695512" type="Sprite27">
+                            <param id="0" name="X">Sprite23.X</param>
+                            <param id="1" name="Y">Sprite23.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" disabled="1" sid="684004230172739" title="Posições">
+            <sub-events>
+                <event-block sid="669094560876406">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="595244586328408" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite23.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="762236888671748" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="261453901313654">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="576770314455995" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite25.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="997955012785469" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="716149501452857">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="449028340405112" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite26.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="708572834392083" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="201729156404372">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="370192256542300" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite24.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="782002244420037" type="System">
+                            <param id="0" name="Variable">posicao</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" disabled="1" sid="606095421173704" title="Flash">
+            <sub-events>
+                <event-block disabled="1" sid="157867470833411">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="203217093770126" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" sid="951352307928996" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite23.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="254463414728506" type="Sprite23">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">0.4</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="123625339706207" type="Sprite27">
+                            <param id="0" name="Animation">&quot;azul&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="972002280081676">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="419557253101252" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" sid="584980066261697" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite24.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="846773083493059" type="Sprite24">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="595410504891102">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="787640811188344" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" sid="259964023642688" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite25.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="426836763150501" type="Sprite25">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="446264996373649">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="813885882322250" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="-1" name="Compare X" sid="769088979806522" type="Sprite27">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">Sprite26.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="795727243028168" type="Sprite26">
+                            <param id="0" name="&apos;On&apos; time">0.1</param>
+                            <param id="1" name="&apos;Off&apos; time">0.1</param>
+                            <param id="2" name="Duration">0.4</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="621530627694667" title="Mouse">
+            <sub-events>
+                <event-block sid="977081561473192">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="323233398827692" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite24</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="918636966327014" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="280046069304670" type="Sprite27">
+                            <param id="0" name="X">Sprite24.X</param>
+                            <param id="1" name="Y">Sprite24.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="750239338695844">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="907411046281088" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite25</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="490943009889405" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="824491747074342" type="Sprite27">
+                            <param id="0" name="X">Sprite25.X</param>
+                            <param id="1" name="Y">Sprite25.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="911409386693663">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="289564776083260" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite26</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="531452129551128" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="135255475090581" type="Sprite27">
+                            <param id="0" name="X">Sprite26.X</param>
+                            <param id="1" name="Y">Sprite26.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="390127513417861">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="714451460807056" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite23</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="829226945380181" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="523179404000042" type="Sprite27">
+                            <param id="0" name="X">Sprite23.X</param>
+                            <param id="1" name="Y">Sprite23.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="988740237205985" title="Seleção mouse">
+            <sub-events>
+                <event-block sid="934882746066048">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="560349470386780" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">1</param>
+                            <param id="2" name="Object clicked">Sprite23</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="448220803355033" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="702813532690992" type="Sprite27">
+                            <param id="0" name="Animation">&quot;azul&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="253621688065577" type="Audio">
+                            <param id="0" name="Audio file">Clicar_menu3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="677934033352288" type="System">
+                            <param id="0" name="Variable">personagem</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="572324558684661">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="596808919017443" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">1</param>
+                            <param id="2" name="Object clicked">Sprite24</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="248001246154065" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="353377710028131" type="Sprite27">
+                            <param id="0" name="Animation">&quot;azul&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="484646818039384" type="Audio">
+                            <param id="0" name="Audio file">Clicar_menu3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="197685323379096" type="System">
+                            <param id="0" name="Variable">personagem</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="714337065644881">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="300648267532142" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">1</param>
+                            <param id="2" name="Object clicked">Sprite25</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="166894794573339" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="990022349171296" type="Sprite27">
+                            <param id="0" name="Animation">&quot;azul&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="780998610271175" type="Audio">
+                            <param id="0" name="Audio file">Clicar_menu3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="360104805839394" type="System">
+                            <param id="0" name="Variable">personagem</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="190831145633956">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="458745126086030" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">1</param>
+                            <param id="2" name="Object clicked">Sprite26</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="775401016071365" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="866021070586930" type="Sprite27">
+                            <param id="0" name="Animation">&quot;azul&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="590875182003016" type="Audio">
+                            <param id="0" name="Audio file">Clicar_menu3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="657757265417952" type="System">
+                            <param id="0" name="Variable">personagem</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="975382356510155" title="Tela travar">
+            <sub-events>
+                <event-block sid="957742968550087">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="483017333031672" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="121134556027597" type="menu_pausa">
+                            <param id="0" name="X">265</param>
+                            <param id="1" name="Y">190</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="647471901781978" type="mensagem">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">82</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="449246019658834">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="641703600279157" type="Keyboard">
+                            <param id="0" name="Key">86 (V)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="601584134598581" type="menu_pausa">
+                            <param id="0" name="X">476</param>
+                            <param id="1" name="Y">-214</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="962538947235408" type="mensagem">
+                            <param id="0" name="X">209</param>
+                            <param id="1" name="Y">-141</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="407531435145458" type="Sprite27">
+                            <param id="0" name="Animation">&quot;normal&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="401581154473044" type="System">
+                            <param id="0" name="Variable">travar</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

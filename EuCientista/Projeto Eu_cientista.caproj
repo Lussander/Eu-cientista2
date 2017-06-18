@@ -1,0 +1,2213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Projeto Eu_cientista</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3ty0zf1hncny9</unique-id>
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>700</width>
+        <height>400</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Mouse" sid="812289049500781">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="794272762938294">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Start" sid="209089069764600">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Fechado" pingpong="0" repeatcount="1" repeatto="0" sid="409687269954419" speed="5">
+                    <frame duration="1" hotspotX="0.469388" hotspotY="0.55" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Botãofechado.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Aberto" pingpong="0" repeatcount="1" repeatto="0" sid="839186259919271" speed="5">
+                    <frame duration="1" hotspotX="0.472727" hotspotY="0.557692" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Botão aberto.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S_exit" sid="412599907236422">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Prateado" pingpong="0" repeatcount="1" repeatto="0" sid="953276695795811" speed="5">
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.5" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Exit01.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="Sob" pingpong="0" repeatcount="1" repeatto="0" sid="177688587326286" speed="5">
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.5" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animação_Exit\Exit04.png" />
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.5" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Exit02.png" />
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.5" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animação_Exit\exit03.png" />
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="585549055583318">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="NomeDoJogo" sid="197759083652644">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Music" sid="917578931714150">
+            <plugin id="sliderbar" />
+            <instance-variables>
+                <instance-variable name="Volume" sid="301643151500245" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="tmusic" sid="114322878505381">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Audio" sid="628271968996970">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite5" sid="978414399254632">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Pausa" sid="608902571928696" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="219329281740336" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Prototipo de programação\pause.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Prototipo de programação\play-button-arrowhead_318-43739.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_pausa" sid="268326639581907">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730083484285380" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Prototipo de programação\cinza-da-textura-da-tela-do-grunge-74510408.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="musica" sid="706823383779720">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="voltar_menu" sid="909338056342187">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite13" sid="559519039466657">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222223355108354" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Prototipo de programação\botao-de-pausa_318-30027.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pausado" sid="258299645608735">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TelaDeOpções" sid="933820157389444">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138700682491919" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Prototipo 3\Animations\Sprite9\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SairDaTelaDeOpões" sid="426542734712761">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="442806002540113">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578357326251478" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\exit-128.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.109375" />
+                            <point x="0.5" y="0.046875" />
+                            <point x="0.679688" y="0.320313" />
+                            <point x="0.84375" y="0.5" />
+                            <point x="0.679688" y="0.679688" />
+                            <point x="0.5" y="0.953125" />
+                            <point x="0.109375" y="0.890625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="448437265004834">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="929425318235709">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211707273876830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24" sid="427419465096071">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="938074716307822">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746878981057247" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="995100965804021">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="921296792992444">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="376674222738757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26" sid="326725645024979">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="170518777341116">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354267277770402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text7" sid="839262208527937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite27" sid="366210139953660">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="normal" pingpong="0" repeatcount="1" repeatto="0" sid="842676409811583" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="azul" pingpong="0" repeatcount="1" repeatto="0" sid="609121471592800" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\ssss.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NewGame" sid="519685392084600">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="OpçõesDeAudio" sid="979744454637426">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Controles" sid="975568046261034">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Voltar" sid="634737830578937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Jogar" sid="228179675178014">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TelaDeOpções2" sid="902009934622611">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="383822290881013" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Prototipo 3\Animations\Sprite9\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TelaDeAudio" sid="980160811183201">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="875583606380914" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\MTJ\Desktop\Arquivo\Animations\Sprite9\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SairDaTelaDeAudio" sid="733004341142888">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="560469635483057">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852666745613598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\exit-128.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.109375" />
+                            <point x="0.5" y="0.046875" />
+                            <point x="0.679688" y="0.320313" />
+                            <point x="0.84375" y="0.5" />
+                            <point x="0.679688" y="0.679688" />
+                            <point x="0.5" y="0.953125" />
+                            <point x="0.109375" y="0.890625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TelaDeControles" sid="728370634750844">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145779645242381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\MTJ\Desktop\Arquivo\Animations\Sprite9\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SairDaTelaDeControles" sid="324860702249238">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="665239766533623">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341466497494262" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\exit-128.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.109375" />
+                            <point x="0.5" y="0.046875" />
+                            <point x="0.679688" y="0.320313" />
+                            <point x="0.84375" y="0.5" />
+                            <point x="0.679688" y="0.679688" />
+                            <point x="0.5" y="0.953125" />
+                            <point x="0.109375" y="0.890625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SFX" sid="152787133203627">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="tsfx" sid="243829185427489">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="topaud" sid="405685369594435">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Tela_menu_jogo" sid="326394006530174">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596124414205491" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\spriote.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="323600356161053">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379649762273298" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mensagem" sid="809231274253141">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Op2" sid="844686529228944">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Voltar_jogo" sid="869407863469881">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Opção_audio_pausa" sid="550866865783449">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ProgressBar" sid="851315445522636">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="CheckMusic" sid="646934369149289">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="First" sid="692935386599468" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654129011175454" speed="0">
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\User\Desktop\Sem título.png" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\User\Desktop\Sem título2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CheckSFX" sid="461043987753088">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="kadsiksaddsa" pingpong="0" repeatcount="1" repeatto="0" sid="381979810904866" speed="0">
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\User\Desktop\Sem título.png" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\User\Desktop\Sem título2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="997244349423993">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454624873228640" speed="5">
+                    <frame duration="1" hotspotX="2.19565" hotspotY="0.542484" original-source="C:\Users\mtj\Desktop\clique-esquerdo-com-o-mouse_318-38671.jpg">
+                        <collision-poly>
+                            <point x="0.15847" y="0.0261438" />
+                            <point x="1" y="0.0261438" />
+                            <point x="1" y="0.539216" />
+                            <point x="1" y="0.970588" />
+                            <point x="0.300546" y="0.970588" />
+                            <point x="0.00546448" y="0.539216" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="825311637093264">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="VoltarControles" sid="906153533221639">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="JogarControles" sid="321210275015115">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Menu_pausado" sid="132744108627145">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="679521224394993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\spriote.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Continuar" sid="122264181744844">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PlayerBox" sid="790050425383234">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="796949459199733">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981005504982271" speed="5">
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.529412" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <image-point name="Imagepoint 1" x="-0.59375" y="0.529412" />
+                        <image-point name="Imagepoint 2" x="1.6875" y="0.529412" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Aluno2" sid="979741386447314">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="121979513485236">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730854777416890" speed="5">
+                    <frame duration="1" hotspotX="0.518272" hotspotY="0.472934" original-source="C:\Users\Luciano\Desktop\Cutscene\megaman_running_sprites_by_cobalt_blue_knight-d2y1i8s.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Aluno3" sid="852520773435755">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="686764885074137">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834998087511014" speed="5">
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.555556" original-source="C:\Users\Sonia\Downloads\Screen_Shot_2017-03-13_at_16.43.42.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="box" sid="896955968676306">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="travar" sid="564893489415047" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="711771324710670">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912943235806689" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Cutscene\Game Boy GBC - Harvest Moon GBC 2 - Font &amp; Message Box.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CaixaDeDialogo" sid="618903493129578">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="329946193182665" speed="5">
+                    <frame duration="1" hotspotX="0.487654" hotspotY="0.47619" original-source="C:\Users\Sonia\Desktop\Em Andamento2\Animations\box\Default\000.png">
+                        <collision-poly>
+                            <point x="0.0123457" y="0.047619" />
+                            <point x="0.5" y="0.0238095" />
+                            <point x="0.987654" y="0.047619" />
+                            <point x="0.987654" y="0.952381" />
+                            <point x="0.5" y="0.97619" />
+                            <point x="0.0123457" y="0.952381" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Enfeite" sid="126934874061799">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="309758472070001" speed="5">
+                    <frame duration="1" hotspotX="5.16667" hotspotY="0.645161" original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Marca" sid="703809505698393">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969266773819306" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509804" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Passar" sid="210424384331012">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PontoDeDialogo" sid="807985206332325">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="629906221253103">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516849452875924" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="t1" sid="434445729051924">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t2" sid="987416335888934">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t3" sid="905576523520728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t5" sid="274955568711800">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="309444964658693">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="665885594595393">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="938550671940264">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ana" sid="108529318669700">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="903131602166769">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320171063142771" speed="5">
+                    <frame duration="1" hotspotX="0.477477" hotspotY="0.535714" original-source="C:\Users\Luciano\Desktop\Cuts\Prof. Juniper.gif">
+                        <collision-poly>
+                            <point x="0.198199" y="0.57143" />
+                            <point x="0.513514" y="0.0142856" />
+                            <point x="0.945946" y="0.478572" />
+                            <point x="0.513514" y="1" />
+                            <point x="0.162162" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AperteX" sid="882506952951901">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct1" sid="835033658435894">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct10" sid="774456678848188">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct11" sid="623727684541318">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct12" sid="222290361524167">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct13" sid="982036992525532">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct14" sid="477924589098735">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct15" sid="442060644876567">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct2" sid="454998789116833">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct4" sid="886489883499761">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct6" sid="777694456250283">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct7" sid="249642634615919">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct8" sid="725977172351777">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct9" sid="555178511990622">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Marcador" sid="855092260775075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="813503911014037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MarcadorCut3" sid="106123859712877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="622832220854017" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="168894496730106">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="627365637521986">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Luciano\Desktop\Cuts\tela-preta.jpg" />
+        </object-type>
+        <object-type name="Ct16" sid="935918407221286">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="547238016029527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447616528812236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\User\Desktop\WASD.png">
+                        <collision-poly>
+                            <point x="0.317568" y="0.505376" />
+                            <point x="0.5" y="0" />
+                            <point x="0.668919" y="0.526882" />
+                            <point x="0.966216" y="0.494624" />
+                            <point x="0.993243" y="0.989247" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0135135" y="0.978495" />
+                            <point x="0.0405405" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Amigo1" sid="550942889037992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="direita" pingpong="0" repeatcount="1" repeatto="0" sid="649555217527693" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para direita\9.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="esqueda" pingpong="0" repeatcount="1" repeatto="0" sid="143576644736828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.510638" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para esquerda\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para esquerda\5.png" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para esquerda\6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para esquerda\7.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="cima" pingpong="0" repeatcount="1" repeatto="0" sid="311616043829848" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para frente\12.png" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para frente\13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para frente\14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para frente\15.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="baixo" pingpong="0" repeatcount="1" repeatto="0" sid="684405387547524" speed="5">
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\pra atrás\0.png" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\pra atrás\1.png" />
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\pra atrás\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\pra atrás\3.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="parado" pingpong="0" repeatcount="1" repeatto="0" sid="982854076364743" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\Lima_e_Rocha\Desktop\Personagem 01\para direita\8.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Block" sid="690751766848487">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="404233473363060">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415967765426296" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Block2" sid="235729360737671">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="262415241712047">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218243540921214" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta1" sid="793921454050785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580036012397014" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta2" sid="350307253181190">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356009433837560" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta3" sid="654976716265414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287655350563069" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="porta4" sid="285839029540707">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="130707670939151" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="270082795988887">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sistema" sid="766434566353178" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Flash" sid="387750457457109">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="147951338465852" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Cut3\playpo.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="941212524205937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PortaSala1" sid="523652256137165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555874678932209" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text8" sid="987757661877751">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text9" sid="328541966494995">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Player" sid="575989793824533">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Ação" sid="123884495499352" type="number" />
+                <instance-variable name="Direção" sid="724069451723312" type="number" />
+                <instance-variable name="Tempo_passo" sid="116928159686263" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="555342332447772" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52381" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52381" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="982125375753688" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52381" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52381" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="483448578702433" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="876147562573495" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Cima_idle" pingpong="0" repeatcount="1" repeatto="0" sid="281247228112091" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\PC\Desktop\Lussander\Sprites\VeraRe-Sprite_07.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Baixo_idle" pingpong="0" repeatcount="1" repeatto="0" sid="446264976986034" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\PC\Desktop\Lussander\Sprites\VeraRe-Sprite_03.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Direita_idle" pingpong="0" repeatcount="1" repeatto="0" sid="394523211727110" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1" original-source="C:\Users\PC\Desktop\Lussander\Sprites\VeraRe-Sprite_13.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Esquerda_idle" pingpong="0" repeatcount="1" repeatto="0" sid="297154177166826" speed="5">
+                    <frame duration="1" hotspotX="0.521739" hotspotY="1" original-source="C:\Users\PC\Desktop\Lussander\Sprites\VeraRe-Sprite_09.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.5875" />
+                            <point x="0.8375" y="0.583333" />
+                            <point x="0.84375" y="0.995833" />
+                            <point x="0.1625" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sala02" sid="358513268102571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443559633390713" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VoltarJogo" sid="431958850792057">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sala01" sid="624908547762320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230655431319099" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sala03" sid="889617219061360">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794350363959917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sala05" sid="647584548353164">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363565576393237" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sala04" sid="844404453318448">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772631414232936" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="558976566645941">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766444110111010" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Livros.png">
+                        <collision-poly>
+                            <point x="0.0671463" y="0.0769231" />
+                            <point x="0.498801" y="0.0302198" />
+                            <point x="0.81295" y="0.214286" />
+                            <point x="0.899281" y="0.5" />
+                            <point x="0.872902" y="0.854396" />
+                            <point x="0.498801" y="0.958791" />
+                            <point x="0.141487" y="0.837912" />
+                            <point x="0.0815348" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="794252145703237">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712641503216533" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.56" original-source="C:\Users\User\Desktop\Botão x.png">
+                        <collision-poly>
+                            <point x="0.0258216" y="0.357143" />
+                            <point x="0.521127" y="0.00460829" />
+                            <point x="0.983568" y="0.389401" />
+                            <point x="0.992958" y="0.546083" />
+                            <point x="0.960094" y="0.682028" />
+                            <point x="0.521127" y="0.995392" />
+                            <point x="0.0516432" y="0.711982" />
+                            <point x="0.00704225" y="0.546083" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SemEnergia" sid="200878523328080">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Fade" sid="239752506886190">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Lv1" sid="368227866835909">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lv2" sid="234760932757942">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lv3" sid="256549438881351">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lv4" sid="877262655192856">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lv5" sid="392399450638647">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lv6" sid="254002299103819">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="parede1" sid="912578068203677">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="695649245864012">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+        </object-type>
+        <object-type name="Sprite18" sid="757002200676471">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="168008823874515">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347926324319470" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\mesa.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite19" sid="641753413628659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571932412753477" speed="5">
+                    <frame duration="1" hotspotX="0.538462" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\cadeirapo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="203210478192212">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="438388831865218">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="793538221354343" speed="5">
+                    <frame duration="1" hotspotX="0.538462" hotspotY="0.529412" original-source="C:\Users\Luciano\Desktop\cadeira.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="224079926045271">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516559606417279" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PC\Documents\Lussander\TitleScreen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Corredores_chão" sid="740955143369659">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Corredores_sólida" sid="669693440964554">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="946682960356085">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Corredores_superior1" sid="724442327647753">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="327900411851605">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Corredores_superior2" sid="449625753269325">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="816888074045495">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Bloqueador2" sid="701567715593565">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="121971710163738">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659582131965031" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Salas_CHão" sid="471023829004062">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\PC\Documents\Lussander\Tilemap.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite22" sid="724796900710728">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743421135671431" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Downloads\TitleScreen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap4" sid="190807138694388">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap2" sid="773861931584841">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\PC\Documents\Lussander\Tilemap.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Salas_Solidos" sid="370569916503833">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="758370438650550">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Salas_Solidos2" sid="450280582734322">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Salas_Solidos3" sid="587714762412472">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="594981543527098">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite28" sid="346263553478368">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340391009746969" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala1" sid="280151550779534">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="121115453926343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala2" sid="578322533873575">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="426111618622846" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala3" sid="883848283147012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356161906390285" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala4" sid="642439615030758">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659481038997083" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala5" sid="530997529408052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197989476658145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala6" sid="712327746122764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="859456553304927" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala7" sid="379397411346353">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500388363767069" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_Para_Sala8" sid="925974953622359">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646365607314835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala2" sid="624526068814452">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591745818866975" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala3" sid="823018402902758">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858679451775622" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala4" sid="653023628084685">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531580581587022" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala5" sid="262208847111118">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511094416183319" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala6" sid="616690211285245">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251432418926579" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala7" sid="637838638123426">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440809964907761" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaSala8" sid="930955462155290">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995973755547365" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\JOGO COMPLETO\Animations\bloqueador\Default\000.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="posição_personagem" sid="368506032803088">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="265269448483159">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="888168917562005">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161853564843006" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.125" y="0.0833333" />
+                            <point x="0.947917" y="0.135417" />
+                            <point x="0.979167" y="0.802083" />
+                            <point x="0.270833" y="0.979167" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S_newgame" sid="387335584208813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Prateado" pingpong="0" repeatcount="1" repeatto="0" sid="100466015446154" speed="5">
+                    <frame duration="1" hotspotX="0.468468" hotspotY="0.555556" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Prateado.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="Sob" pingpong="0" repeatcount="1" repeatto="0" sid="890343574621651" speed="5">
+                    <frame duration="1" hotspotX="0.468468" hotspotY="0.555556" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animaçã_New\New04.png" />
+                    <frame duration="1" hotspotX="0.468468" hotspotY="0.555556" original-source="C:\Users\PC\Desktop\Lussander\Sprites\New game dourado 02.png" />
+                    <frame duration="1" hotspotX="0.468468" hotspotY="0.555556" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animaçã_New\New03.png" />
+                    <frame duration="1" hotspotX="0.468468" hotspotY="0.555556" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S_load" sid="511475256856695">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Prateado" pingpong="0" repeatcount="1" repeatto="0" sid="996464998142983" speed="5">
+                    <frame duration="1" hotspotX="0.539683" hotspotY="0.611111" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Load 01.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="Sob" pingpong="0" repeatcount="1" repeatto="0" sid="890987663289099" speed="5">
+                    <frame duration="1" hotspotX="0.539683" hotspotY="0.611111" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animaçã_Load\load 04.png" />
+                    <frame duration="1" hotspotX="0.539683" hotspotY="0.611111" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Load 02.png" />
+                    <frame duration="1" hotspotX="0.539683" hotspotY="0.611111" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Animaçã_Load\load03.png" />
+                    <frame duration="1" hotspotX="0.539683" hotspotY="0.611111" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Chão" sid="842799055590755">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Paredes" sid="933516929195504">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="479585114798053">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap3" sid="432283655410658">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap5" sid="778813076535505">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Desktop\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Detalhes" sid="768666787815475">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Detalhes2" sid="636524961251346">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="577978104280471">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite2" sid="391022416515670">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="636936106404519">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746439570448641" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="557349069157431">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806450033622649" speed="5">
+                    <frame duration="1" hotspotX="3.88462" hotspotY="0.607143" original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png">
+                        <collision-poly>
+                            <point x="0.0384615" y="0" />
+                            <point x="1" y="0.892857" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.607143" />
+                            <point x="1" y="0.964286" />
+                            <point x="1" y="0.964286" />
+                            <point x="0.0384615" y="0.964286" />
+                            <point x="0.0384615" y="0.607143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cartaz" sid="491902361800789">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="856811988583561">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500418149410341" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Cutscene\Game Boy GBC - Harvest Moon GBC 2 - Font &amp; Message Box.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Exclamação" sid="246476216774511">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="742829037764942">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493500544847288" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sonia\Desktop\exclamação.png">
+                        <collision-poly>
+                            <point x="0.217143" y="0.217143" />
+                            <point x="0.5" y="0.157143" />
+                            <point x="0.751429" y="0.248571" />
+                            <point x="0.811429" y="0.5" />
+                            <point x="0.717143" y="0.717143" />
+                            <point x="0.5" y="0.842857" />
+                            <point x="0.28" y="0.72" />
+                            <point x="0.157143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp1" sid="446636178237007">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp2" sid="265676885346783">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp3" sid="725428084804774">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="X" sid="492663830156463">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp4" sid="249862550692674">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp5" sid="812100483776431">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="problem" sid="832510559585962">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Cartaz1" sid="585480347933499">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="874376318457743" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Cutscene\SNES - Metal Max Returns - Wanted Poster Baddie Promo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="458256928480406">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Luciano\Desktop\Cutscene1.png" />
+            <tiles />
+        </object-type>
+        <object-type name="E" sid="697745903180920">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Exclamaçãoo" sid="751339959439230">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183249436677405" speed="5">
+                    <frame duration="1" hotspotX="0.323529" hotspotY="0.520661" original-source="C:\Users\PC\Desktop\Lussander\Sprites\exclamacao.gif">
+                        <collision-poly>
+                            <point x="0.323529" y="0.780992" />
+                            <point x="0.323529" y="0.0206612" />
+                            <point x="0.338235" y="0.776859" />
+                            <point x="0.779412" y="0.392562" />
+                            <point x="0.323529" y="0.987603" />
+                            <point x="0.117647" y="0.322314" />
+                            <point x="0.352941" y="0.520661" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Exclamação_mapa" sid="160267919996318">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="travar" sid="931862254191470" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Flash" sid="692569339618724">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424604779661225" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sonia\Desktop\exclamação.png">
+                        <collision-poly>
+                            <point x="0.217143" y="0.217143" />
+                            <point x="0.5" y="0.157143" />
+                            <point x="0.751429" y="0.248571" />
+                            <point x="0.811429" y="0.5" />
+                            <point x="0.717143" y="0.717143" />
+                            <point x="0.5" y="0.842857" />
+                            <point x="0.28" y="0.72" />
+                            <point x="0.157143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="968373822211772">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="a_colisao" sid="613033445131399">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="622480889820127" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="t_sala01" sid="488926256712726">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="aperte_E" sid="315003381833190">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t_sala2" sid="328539617053043">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="rosto" sid="394823481568094">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="534657066443929" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" />
+                    <frame duration="1" hotspotX="0.55" hotspotY="0.52" original-source="C:\Users\PC\Desktop\Lussander\Sprites\Teste.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="t_sala3" sid="234632850306109">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t_sala4" sid="255027027903762">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="t_sala5" sid="904198378441472">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tr_sala6" sid="242531081496937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Porta_Para_Lab" sid="675887622330471">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252198962408808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap6" sid="910419077548820">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Luciano\Desktop\aa\SalaDePesquisa.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap7" sid="547210499928586">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="571000522892323">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Luciano\Desktop\aa\SalaDePesquisa.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap8" sid="715128565433984">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Luciano\Desktop\aa\SalaDePesquisa.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap9" sid="358095495760749">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Luciano\Desktop\aa\SalaDePesquisa.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Chão_cut2" sid="268384364856013">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Downloads\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Solidos_cut2" sid="161478852255849">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="920559695219197">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Sonia\Downloads\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Superiores1_cut2" sid="754564819878002">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Downloads\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Superiores2_Cut2" sid="648969699066417">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Sonia\Downloads\TilesSaladeAula.png" />
+            <tiles />
+        </object-type>
+        <object-type name="ScrollCut2" sid="820483684669107">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="831164137924196">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829417056409152" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ct1_2" sid="787695719716203">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Ct1_3" sid="348262911166193">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Porta_SDP" sid="897436025089038">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="641128016611995" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MdlSaladosPorfessores" sid="429852662424454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664240699212481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sala_dos_Professores" sid="162808731125377">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795270854382536" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="941562801469138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="726650398966969" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tip1" sid="423351049143495">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tip3" sid="411265391526306">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tip2" sid="217458543755713">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tip4" sid="787028645804732">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="etip" sid="565027085063223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312703568145109" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tip5" sid="324192116568270">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetip1" sid="815920672333943">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetip2" sid="865479929199617">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetip3" sid="905802550523387">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetip4" sid="857361368338930">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetipc" sid="422983544508756">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetipc2" sid="909524453128280">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="tetipc3" sid="789216870723849">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="eprob" sid="694731370932873">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="934164570245215" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="esn" sid="104571033436168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="685502873534248" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="etip2" sid="981654747598899">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="558980930448710" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text10" sid="178448805800416">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp6" sid="320036385965571">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp7" sid="755203933976908">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp8" sid="643467015060755">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp9" sid="449589050881355">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp10" sid="449257317388576">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp11" sid="126121947195246">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp12" sid="652261166042346">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp13" sid="122895673130896">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp14" sid="823426589594600">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P1" sid="401959763003734">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P2" sid="283626766983113">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P3" sid="636945969227602">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P4" sid="607872489416493">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite9" sid="902888681950288">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529171497094754" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CP" sid="520707915398732">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400667013071311" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="861508031948300">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="997284495698229" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp15" sid="365049142952613">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp16" sid="812880513249873">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text11" sid="404405472257023">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp17" sid="919591836939048">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P1_1" sid="904916282638975">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P1_2" sid="454124687827338">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P1_3" sid="315661359452805">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P1_4" sid="923449530072339">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P2_1" sid="902740678767733">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P2_2" sid="350158803441504">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P2_3" sid="503089670195704">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P2_4" sid="773101732367358">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P3_1" sid="207280492609688">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P3_2" sid="597121220822977">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P3_3" sid="691226846947320">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P3_4" sid="774953680210073">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P4_1" sid="641426359673000">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P4_2" sid="366911141151846">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P4_3" sid="992870513508878">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="P4_4" sid="535704896884440">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="DCP" sid="970803699464497">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="535555291366841" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp18" sid="418276323153600">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp19" sid="957784301081510">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp20" sid="528617460676681">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp21" sid="985312412222773">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp22" sid="544438370689662">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp23" sid="923987991243946">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp24" sid="913428175875021">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SJU" sid="553039308868694">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922708771568941" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="semju" sid="302757779348724">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp25" sid="893468626141027">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp26" sid="757290934072690">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp27" sid="364992782658225">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp28" sid="512935589201903">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SES" sid="899620305590270">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189385028339391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp29" sid="916634071357742">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp30" sid="977372355926596">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp31" sid="713969238228341">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp32" sid="487018483207726">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp33" sid="578539034057763">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp34" sid="798562083675055">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>Menu2.xml</layout>
+        <layout>Audio_menu_main.xml</layout>
+        <layout>Tela de jogo.xml</layout>
+        <layout>Tela_personagens.xml</layout>
+        <layout>Audio_jogo_pausado.xml</layout>
+        <layout>Cutscene 1.xml</layout>
+        <layout>Cutscene 2.xml</layout>
+        <layout>Sala_Dos_Professores.xml</layout>
+        <layout>Cutscene 3.xml</layout>
+        <layout>Sala 1.xml</layout>
+        <layout>Sala 2.xml</layout>
+        <layout>Sala 3.xml</layout>
+        <layout>Sala 4.xml</layout>
+        <layout>Sala 5.xml</layout>
+        <layout>Sala 6.xml</layout>
+        <layout>Sala 7.xml</layout>
+        <layout>Sala 8.xml</layout>
+        <layout>Corredores.xml</layout>
+        <layout>Banheiros.xml</layout>
+        <layout>Bibiliotecas.xml</layout>
+        <layout>Deposito.xml</layout>
+        <layout>Refeitorio.xml</layout>
+        <layout>Sala de musica.xml</layout>
+        <layout>Lab.xml</layout>
+        <layout>Diretoria.xml</layout>
+        <layout>Area externa.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Comandos Menu.xml</event-sheet>
+        <event-sheet>Comando_tela_jogando.xml</event-sheet>
+        <event-sheet>Comandos_Personagens.xml</event-sheet>
+        <event-sheet>Comandos_Menu2.xml</event-sheet>
+        <event-sheet>Comandos_jogo_pausado.xml</event-sheet>
+        <event-sheet>Comando_audio_jogo.xml</event-sheet>
+        <event-sheet>ComandosCutscene1.xml</event-sheet>
+        <event-sheet>ComandosCutscene2.xml</event-sheet>
+        <event-sheet>ComandosCutscene3.xml</event-sheet>
+        <event-sheet>Salas.xml</event-sheet>
+        <event-sheet>Minimapa.xml</event-sheet>
+        <event-sheet>Sala dos Prof.xml</event-sheet>
+        <event-sheet>Banheiros.xml</event-sheet>
+        <event-sheet>Bibliotecas.xml</event-sheet>
+        <event-sheet>Deposito.xml</event-sheet>
+        <event-sheet>Refeitorio.xml</event-sheet>
+        <event-sheet>Sala de musica.xml</event-sheet>
+        <event-sheet>Lab.xml</event-sheet>
+        <event-sheet>Diretoria.xml</event-sheet>
+        <event-sheet>Corredores.xml</event-sheet>
+        <event-sheet>Area Externa.xml</event-sheet>
+        <event-sheet>Especial_sala01.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="1" />
+        <global-instance type="Keyboard" uid="2" />
+        <global-instance type="Browser" uid="4" />
+        <global-instance type="Audio" uid="9">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="153" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="Passos.m4a" />
+        <file name="Passos.ogg" />
+        <file name="caixa-diálogo-1.m4a" />
+        <file name="caixa-diálogo-1.ogg" />
+        <file name="caixa-diálogo-2.m4a" />
+        <file name="caixa-diálogo-2.ogg" />
+        <file name="Menu_Eu_cientista_nova.m4a" />
+        <file name="Menu_Eu_cientista_nova.ogg" />
+        <file name="Clicar_menu3.m4a" />
+        <file name="Clicar_menu3.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

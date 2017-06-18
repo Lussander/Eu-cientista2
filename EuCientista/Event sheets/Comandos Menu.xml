@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Comandos Menu</name>
+    <events>
+        <variable constant="0" name="First" sid="101137504576173" static="0" type="number">0</variable>
+        <event-block sid="237673570630101">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="526046282322260" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">S_exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="215696632038229" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="452367484119214">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="202786062044969" type="System">
+                    <param id="0" name="Variable">First</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="556281703951428" type="Audio">
+                    <param id="0" name="Audio file">Menu_Eu_cientista_nova</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;fundo&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="860933984342622" type="System">
+                    <param id="0" name="Variable">First</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556871582727377">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="186584108703009" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="257868818280276" type="Audio">
+                    <param id="0" name="Audio file">Clicar_menu3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="279575770524339" type="System">
+                    <param id="0" name="Layout">Menu2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="870264951784148">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="827265403499472" type="TelaDeAudio">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Y co-ordinate">239</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="952541819998355" type="Start">
+                    <param id="0" name="X">-57</param>
+                    <param id="1" name="Y">-119</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="550438694042111">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="851194591227976" type="Mouse">
+                    <param id="0" name="Object">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="541074555748168" type="Start">
+                    <param id="0" name="Animation">&quot;Aberto&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="882093527955429">
+            <conditions>
+                <condition id="-22" name="Else" sid="127175472401446" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="636785754718345" type="Start">
+                    <param id="0" name="Animation">&quot;Fechado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="184692610083356">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="196627305381186" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="493777085327336" type="System">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">300</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

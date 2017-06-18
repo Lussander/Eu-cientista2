@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Comandos_jogo_pausado</name>
+    <events>
+        <event-block sid="918652995602620">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="333880898825761" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Continuar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="104225130206075" type="System">
+                    <param id="0" name="Layout">Tela de jogo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="525187893205763">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="949315504677211" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">voltar_menu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="789352377196945" type="System">
+                    <param id="0" name="Layout">Menu2</param>
+                </action>
+                <action id="22" name="Set paused" sid="686566227983209" type="Audio">
+                    <param id="0" name="Tag">&quot;yugi&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="212988867735239" type="System">
+                    <param id="0" name="Variable">music</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="150686230930335" type="System">
+                    <param id="0" name="Variable">travado</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="334744007818227">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="802530875209683" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Opção_audio_pausa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="246407322848166" type="System">
+                    <param id="0" name="Layout">Audio_jogo_pausado</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Minimapa</name>
+    <events>
+        <event-block sid="153666661565415">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="921867694004043" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="613701611108980" type="System">
+                    <param id="0" name="Width">1728</param>
+                    <param id="1" name="Height">960</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="603933777070013">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="253196311333428" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="536126494988147" type="Sprite8">
+                    <param id="0" name="X">889</param>
+                    <param id="1" name="Y">196</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="970537784491406" type="Sprite8">
+                    <param id="0" name="&apos;On&apos; time">0.6</param>
+                    <param id="1" name="&apos;Off&apos; time">0.6</param>
+                    <param id="2" name="Duration">100000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556964423774008">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="833267559863319" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">VoltarJogo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="183472764574407" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+                <action id="-37" name="Load" sid="436799506381943" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="745317445777663">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="644374370920534" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="902365082485960" type="Sprite8">
+                    <param id="0" name="X">289</param>
+                    <param id="1" name="Y">198</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="949696427361992" type="Sprite8">
+                    <param id="0" name="&apos;On&apos; time">0.6</param>
+                    <param id="1" name="&apos;Off&apos; time">0.6</param>
+                    <param id="2" name="Duration">100000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581831426716312">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="230810780566150" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="156730493159374" type="Sprite8">
+                    <param id="0" name="X">1495</param>
+                    <param id="1" name="Y">486</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="928037413978841" type="Sprite8">
+                    <param id="0" name="&apos;On&apos; time">0.6</param>
+                    <param id="1" name="&apos;Off&apos; time">0.6</param>
+                    <param id="2" name="Duration">100000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="765742469693858">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="745132401960469" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="976655186786431" type="Sprite8">
+                    <param id="0" name="X">964</param>
+                    <param id="1" name="Y">757</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="340136149555429" type="Sprite8">
+                    <param id="0" name="&apos;On&apos; time">0.6</param>
+                    <param id="1" name="&apos;Off&apos; time">0.6</param>
+                    <param id="2" name="Duration">100000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="456918234541894">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="639448015790602" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="351977261416220" type="Sprite8">
+                    <param id="0" name="X">271</param>
+                    <param id="1" name="Y">755</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="310067703461234" type="Sprite8">
+                    <param id="0" name="&apos;On&apos; time">0.6</param>
+                    <param id="1" name="&apos;Off&apos; time">0.6</param>
+                    <param id="2" name="Duration">100000</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

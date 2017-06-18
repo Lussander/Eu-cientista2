@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Comandos_Menu2</name>
+    <events>
+        <variable constant="0" name="pausa" sid="126257189209254" static="0" type="number">0</variable>
+        <variable constant="0" name="SFX" sid="898441433286086" static="0" type="number">0</variable>
+        <variable constant="0" name="music" sid="739294020728700" static="0" type="number">0</variable>
+        <event-block sid="463242651334173">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="832358982362328" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">S_newgame</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="879917897362496" type="Audio">
+                    <param id="0" name="Audio file">Clicar_menu3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="995359306372794" type="System">
+                    <param id="0" name="Layout">Tela_personagens</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="668569627930730">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="312521722950507" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">VoltarControles</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="358631612669345" type="System">
+                    <param id="0" name="Layout">Menu2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="923917015003209">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="223736836460094" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SairDaTelaDeAudio</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="126616355919223" type="System">
+                    <param id="0" name="Variable">pausa</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="602313726061328" type="System">
+                    <param id="0" name="Layout">Menu2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="791782780999352">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="830786717632088" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SairDaTelaDeAudio</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="899260269754313" type="System">
+                    <param id="0" name="Variable">pausa</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="117768916759706" type="System">
+                    <param id="0" name="Layout">Corredores</param>
+                </action>
+                <action id="-9" name="Set value" sid="624061711083465" type="System">
+                    <param id="0" name="Variable">pausa</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-28" name="Set canvas size" sid="818248275540367" type="System">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">300</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="256031995351402">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="511067183905245" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">S_exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="477683648587003" type="Audio">
+                    <param id="0" name="Audio file">Clicar_menu3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="368037434877395" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="715322242247588">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="589880540418719" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">OpçõesDeAudio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="997590994438010" type="System">
+                    <param id="0" name="Layout">Audio_menu_main</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="927942731362891">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="125573537129207" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Controles</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-group description="" sid="732293306616069" title="SOM">
+            <sub-events>
+                <event-block sid="269851181218728">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="940996095477505" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">CheckMusic</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="246449187197138">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="174624975285416" type="CheckMusic">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="461741307368859" type="Music">
+                                    <param id="0" name="Value">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="167105691396316" type="CheckMusic">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="543572246171691">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="700434275371209" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="650949255103800" type="CheckMusic">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="3" name="Set value" sid="973304679165211" type="Music">
+                                    <param id="0" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-group description="" sid="326886567690876" title="Slide-Volume">
+                    <sub-events>
+                        <event-block sid="806390620968911">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="985578067451018" type="System" />
+                                <condition id="-14" name="Compare variable" sid="927193753095165" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="859619510477077" type="Music">
+                                    <param id="0" name="Value">74</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="517789980680852">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="158827691741876" type="System" />
+                                <condition id="-14" name="Compare variable" sid="191671171719230" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="458725229087971" type="Music">
+                                    <param id="0" name="Value">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="678816218986497">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="833992667914811" type="System" />
+                                <condition id="-14" name="Compare variable" sid="277135283880520" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="217710969594486" type="Music">
+                                    <param id="0" name="Value">25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="204527616134420">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="457601268354382" type="System" />
+                                <condition id="-14" name="Compare variable" sid="407090621533297" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="667198978618618" type="Music">
+                                    <param id="0" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="967864202420253">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="584092158363300" type="System" />
+                                <condition id="-14" name="Compare variable" sid="465086468322710" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="195514957857578" type="Music">
+                                    <param id="0" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="824840371387058" title="Controle deslizante(Música)">
+                    <sub-events>
+                        <event-block sid="754326627624430">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="904832605692955" type="Music">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">75</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="717982602993687" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">76</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set volume" sid="878287249965387" type="Audio">
+                                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                                    <param id="1" name="dB">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="457760768245501" type="CheckMusic">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="546086818052209" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Value">76</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="165971700957067" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="591436722095595">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="561738907271994" type="Music">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">75</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="277723222408581" type="Music">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">50</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="656270286604646" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">74</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set volume" sid="530329575166236" type="Audio">
+                                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="740076254746031" type="CheckMusic">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="125898407706597" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Value">74</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="846824433354024" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="784828208198067">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="980869285134191" type="Music">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">50</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="518682712196080" type="Music">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">25</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="496064502508626" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">50</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set volume" sid="346682883560776" type="Audio">
+                                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                                    <param id="1" name="dB">-10</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="414262208718323" type="CheckMusic">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="976416731285978" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="511579546108725" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="443993950329795">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="752322898138313" type="Music">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">0</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="384153619964704" type="Music">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">25</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="550284747040283" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">25</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set volume" sid="164531895335840" type="Audio">
+                                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="236003784638878" type="CheckMusic">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="128313995160900" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Value">25</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="890242673714026" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="862220642556488">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="213819206867587" type="Music">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="186810883790618" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set volume" sid="467351848949965" type="Audio">
+                                    <param id="0" name="Tag">&quot;fundo&quot;</param>
+                                    <param id="1" name="dB">-100</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="549018085695641" type="Music">
+                                    <param id="0" name="Instance variable">Volume</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="908528258837417" type="System">
+                                    <param id="0" name="Variable">Som</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="412156570369257" type="CheckMusic">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="324894470178513">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="119318961507921" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">CheckSFX</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="327054902856402">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="402442268361564" type="CheckSFX">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="973013150265394" type="CheckSFX">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="3" name="Set value" sid="750962595269942" type="SFX">
+                                    <param id="0" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="583833299619858">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="173160628365277" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="161770124916964" type="CheckSFX">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="3" name="Set value" sid="311847090605459" type="SFX">
+                                    <param id="0" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-group description="" sid="216290024911766" title="Slide-Volume2">
+                    <sub-events>
+                        <event-block sid="827601879870529">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="942154806691412" type="System" />
+                                <condition id="-14" name="Compare variable" sid="203874442744417" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="762247485955469" type="SFX">
+                                    <param id="0" name="Value">74</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="507589483004168">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="142818533486594" type="System" />
+                                <condition id="-14" name="Compare variable" sid="189408227200864" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="893017828707213" type="SFX">
+                                    <param id="0" name="Value">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="111750632455791">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="284411081240567" type="System" />
+                                <condition id="-14" name="Compare variable" sid="360748422633869" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="342261259881871" type="SFX">
+                                    <param id="0" name="Value">25</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="939121348059238">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="495554792444920" type="System" />
+                                <condition id="-14" name="Compare variable" sid="420132967738378" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="304435590545700" type="SFX">
+                                    <param id="0" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="344052520091952">
+                            <conditions>
+                                <condition id="-2" name="On start of layout" sid="524668412877978" type="System" />
+                                <condition id="-14" name="Compare variable" sid="602752443000175" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set value" sid="215618932351571" type="SFX">
+                                    <param id="0" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="522387444214098" title="Controle deslizante (SFX)">
+                    <sub-events>
+                        <event-block sid="166409342910276">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="727062942349384" type="SFX">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">75</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="924639699038742" type="CheckSFX">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="375210002699625" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="167280946706121">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="441711080020719" type="SFX">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">75</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="406264917252284" type="SFX">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">50</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="113675242029149" type="CheckSFX">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="393073971458881" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="844273752923823">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="141689758603883" type="SFX">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">50</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="934674257430571" type="SFX">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">25</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="234132865945874" type="CheckSFX">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="483394618502406" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="459880540698155">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="928662124022411" type="SFX">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">0</param>
+                                </condition>
+                                <condition id="1" name="Compare value" sid="484592380605561" type="SFX">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Value">25</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="526565562524522" type="CheckSFX">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="359568597248000" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="951825946896760">
+                            <conditions>
+                                <condition id="1" name="Compare value" sid="802817580191436" type="SFX">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="343655907576471" type="System">
+                                    <param id="0" name="Variable">SFX</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="403717374562549" type="CheckSFX">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="937250122712617" title="Mouse nos ícones">
+            <sub-events>
+                <event-block sid="224896565048120">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="209352850591941" type="Mouse">
+                            <param id="0" name="Object">S_newgame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="183541725039952" type="S_newgame">
+                            <param id="0" name="Animation">&quot;Sob&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="969390962340504">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="742799938594580" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="653644620304657" type="S_newgame">
+                            <param id="0" name="Animation">&quot;Prateado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="131100810377617">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="251657236063875" type="Mouse">
+                            <param id="0" name="Object">S_load</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="239431385211544" type="S_load">
+                            <param id="0" name="Animation">&quot;Sob&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="148611841286155">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="683194068938622" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="619598644965092" type="S_load">
+                            <param id="0" name="Animation">&quot;Prateado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="129017304837426">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="864506965372491" type="Mouse">
+                            <param id="0" name="Object">S_exit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="144552694875462" type="S_exit">
+                            <param id="0" name="Animation">&quot;Sob&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="462268221041684">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="748165142014007" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="777308409421355" type="S_exit">
+                            <param id="0" name="Animation">&quot;Prateado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="350303740893406">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="679029030908615" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="569390799919658" type="System">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">300</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

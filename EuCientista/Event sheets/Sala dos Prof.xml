@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Sala dos Prof</name>
+    <events>
+        <event-group description="" sid="284245918872140" title="Movimento_Final7">
+            <sub-events>
+                <event-block sid="552455355557081">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="244038392248388" type="Keyboard">
+                            <param id="0" name="Key">87 (W)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="146435410310623" type="posição_personagem">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="874110304424052">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="707060226142944" type="Keyboard">
+                            <param id="0" name="Key">83 (S)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="378627269858108" type="posição_personagem">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="441442359153991">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="797977384223301" type="Keyboard">
+                            <param id="0" name="Key">65 (A)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="481016892659599" type="posição_personagem">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="782676182030171">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="528136064145843" type="Keyboard">
+                            <param id="0" name="Key">68 (D)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="659739972332101" type="posição_personagem">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130907163580606">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="176907927752831" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="852143989107672" type="Player">
+                            <param id="0" name="X">posição_personagem.X</param>
+                            <param id="1" name="Y">posição_personagem.Y+5</param>
+                        </action>
+                        <action id="-29" name="Move to object" sid="802352231400305" type="Player">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Object">posição_personagem</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="198631885188530">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="556649168119556" type="System">
+                            <param id="0" name="First value">posição_personagem.Angle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">90</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="149303034942324">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="771348431754560" type="posição_personagem" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="922254470635514" type="Player">
+                                    <param id="0" name="Animation">&quot;Baixo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="235496055983486">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="862919599272225" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="399936982092909" type="Player">
+                                    <param id="0" name="Animation">&quot;Baixo_idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="546314394188725">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="987433658765794" type="System">
+                            <param id="0" name="First value">posição_personagem.angle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="885557768784505">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="374012536072645" type="posição_personagem" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="966213133794970" type="Player">
+                                    <param id="0" name="Animation">&quot;Direita&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="376740781775379">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="618750560627691" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="470047104034575" type="Player">
+                                    <param id="0" name="Animation">&quot;Direita_idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="120025718425070">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="499283019205870" type="System">
+                            <param id="0" name="First value">posição_personagem.Angle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">180</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="672301963178091">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="475517506831452" type="posição_personagem" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="457178408056912" type="Player">
+                                    <param id="0" name="Animation">&quot;Esquerda&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="681482098759140">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="457018050781586" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="754507825586273" type="Player">
+                                    <param id="0" name="Animation">&quot;Esquerda_idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="392598858456854">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="969591937834804" type="System">
+                            <param id="0" name="First value">posição_personagem.Angle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">270</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="962951342654703">
+                            <conditions>
+                                <condition behavior="8Direction" id="0" name="Is moving" sid="116765013955460" type="posição_personagem" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="232112911425697" type="Player">
+                                    <param id="0" name="Animation">&quot;Cima&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="687958981892720">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="372683371672876" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="556166640112760" type="Player">
+                                    <param id="0" name="Animation">&quot;Cima_idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="665103358534057" title="Passos7">
+            <sub-events>
+                <event-block sid="890610417265798">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="590249851412100" type="System">
+                            <param id="0" name="Variable">SFX</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="544106224749089" type="Audio">
+                            <param id="0" name="Audio file">Passos</param>
+                            <param id="1" name="Loop">1</param>
+                            <param id="2" name="Volume">0</param>
+                            <param id="3" name="Object">Player</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="411912830761018">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="412667799234517" type="System">
+                            <param id="0" name="Variable">SFX</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="682136483538531" type="Audio">
+                            <param id="0" name="Audio file">Passos</param>
+                            <param id="1" name="Loop">1</param>
+                            <param id="2" name="Volume">-5</param>
+                            <param id="3" name="Object">Player</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="980632316755301">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="294717974387011" type="System">
+                            <param id="0" name="Variable">SFX</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="309170277218160" type="Audio">
+                            <param id="0" name="Audio file">Passos</param>
+                            <param id="1" name="Loop">1</param>
+                            <param id="2" name="Volume">-10</param>
+                            <param id="3" name="Object">Player</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="161126027958847">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="529527520122669" type="System">
+                            <param id="0" name="Variable">SFX</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="944990638070129" type="Audio">
+                            <param id="0" name="Audio file">Passos</param>
+                            <param id="1" name="Loop">1</param>
+                            <param id="2" name="Volume">-15</param>
+                            <param id="3" name="Object">Player</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="929422862557552">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="340968763357762" type="System">
+                            <param id="0" name="Variable">SFX</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="924604431251050" type="Audio">
+                            <param id="0" name="Audio file">Passos</param>
+                            <param id="1" name="Loop">1</param>
+                            <param id="2" name="Volume">-100</param>
+                            <param id="3" name="Object">Player</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="674537235658654">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="651253432959788" type="Player">
+                    <param id="0" name="Object">MdlSaladosPorfessores</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="282441281799723" type="Player">
+                    <param id="0" name="Layer">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="528101908640498">
+            <conditions>
+                <condition id="-22" name="Else" sid="547304909530443" type="System" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="217377049576422" type="Player">
+                    <param id="0" name="Layer">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="698234174989659">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="767935844553858" type="Player">
+                    <param id="0" name="Object">Porta_SDP</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="950826822806385" type="System">
+                    <param id="0" name="Layout">Corredores</param>
+                </action>
+                <action id="-9" name="Set value" sid="825960660600370" type="System">
+                    <param id="0" name="Variable">SDP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Comando_tela_jogando</name>
+    <events>
+        <variable constant="0" name="travado" sid="697902908076299" static="0" type="number">0</variable>
+        <event-block sid="658187943205116">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="297272600942077" type="System">
+                    <param id="0" name="Variable">travado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="477273029410193" type="System">
+                    <param id="0" name="Variable">travado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

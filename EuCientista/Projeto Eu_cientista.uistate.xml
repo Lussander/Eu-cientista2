@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Sala 1</layout>
+        <layout order="1">Lab</layout>
+        <layout order="3">Menu</layout>
+        <event-sheet order="2">Lab</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Start/" />
+        <folder expanded="1" path="animation-folder/S_exit/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/menu_pausa/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/TelaDeOpções/" />
+        <folder expanded="1" path="animation-folder/SairDaTelaDeOpões/" />
+        <folder expanded="1" path="animation-folder/Sprite23/" />
+        <folder expanded="1" path="animation-folder/Sprite24/" />
+        <folder expanded="1" path="animation-folder/Sprite25/" />
+        <folder expanded="1" path="animation-folder/Sprite26/" />
+        <folder expanded="1" path="animation-folder/Sprite27/" />
+        <folder expanded="1" path="animation-folder/TelaDeOpções2/" />
+        <folder expanded="1" path="animation-folder/TelaDeAudio/" />
+        <folder expanded="1" path="animation-folder/SairDaTelaDeAudio/" />
+        <folder expanded="1" path="animation-folder/TelaDeControles/" />
+        <folder expanded="1" path="animation-folder/SairDaTelaDeControles/" />
+        <folder expanded="1" path="animation-folder/Tela_menu_jogo/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/CheckMusic/" />
+        <folder expanded="1" path="animation-folder/CheckSFX/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Menu_pausado/" />
+        <folder expanded="1" path="animation-folder/PlayerBox/" />
+        <folder expanded="1" path="animation-folder/Aluno2/" />
+        <folder expanded="1" path="animation-folder/Aluno3/" />
+        <folder expanded="1" path="animation-folder/box/" />
+        <folder expanded="1" path="animation-folder/CaixaDeDialogo/" />
+        <folder expanded="1" path="animation-folder/Enfeite/" />
+        <folder expanded="1" path="animation-folder/Marca/" />
+        <folder expanded="1" path="animation-folder/PontoDeDialogo/" />
+        <folder expanded="1" path="animation-folder/Ana/" />
+        <folder expanded="1" path="animation-folder/Marcador/" />
+        <folder expanded="1" path="animation-folder/MarcadorCut3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Amigo1/" />
+        <folder expanded="1" path="animation-folder/Block/" />
+        <folder expanded="1" path="animation-folder/Block2/" />
+        <folder expanded="1" path="animation-folder/porta1/" />
+        <folder expanded="1" path="animation-folder/porta2/" />
+        <folder expanded="1" path="animation-folder/porta3/" />
+        <folder expanded="1" path="animation-folder/porta4/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/PortaSala1/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/sala02/" />
+        <folder expanded="1" path="animation-folder/sala01/" />
+        <folder expanded="1" path="animation-folder/Sala03/" />
+        <folder expanded="1" path="animation-folder/Sala05/" />
+        <folder expanded="1" path="animation-folder/Sala04/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/Sprite21/" />
+        <folder expanded="1" path="animation-folder/Bloqueador2/" />
+        <folder expanded="1" path="animation-folder/Sprite22/" />
+        <folder expanded="1" path="animation-folder/Sprite28/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala1/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala2/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala3/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala4/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala5/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala6/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala7/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Sala8/" />
+        <folder expanded="1" path="animation-folder/PortaSala2/" />
+        <folder expanded="1" path="animation-folder/PortaSala3/" />
+        <folder expanded="1" path="animation-folder/PortaSala4/" />
+        <folder expanded="1" path="animation-folder/PortaSala5/" />
+        <folder expanded="1" path="animation-folder/PortaSala6/" />
+        <folder expanded="1" path="animation-folder/PortaSala7/" />
+        <folder expanded="1" path="animation-folder/PortaSala8/" />
+        <folder expanded="1" path="animation-folder/posição_personagem/" />
+        <folder expanded="1" path="animation-folder/S_newgame/" />
+        <folder expanded="1" path="animation-folder/S_load/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Cartaz/" />
+        <folder expanded="1" path="animation-folder/Exclamação/" />
+        <folder expanded="1" path="animation-folder/Cartaz1/" />
+        <folder expanded="1" path="animation-folder/Exclamaçãoo/" />
+        <folder expanded="1" path="animation-folder/Exclamação_mapa/" />
+        <folder expanded="1" path="animation-folder/a_colisao/" />
+        <folder expanded="1" path="animation-folder/rosto/" />
+        <folder expanded="1" path="animation-folder/Porta_Para_Lab/" />
+        <folder expanded="1" path="animation-folder/ScrollCut2/" />
+        <folder expanded="1" path="animation-folder/Porta_SDP/" />
+        <folder expanded="1" path="animation-folder/MdlSaladosPorfessores/" />
+        <folder expanded="1" path="animation-folder/Sala_dos_Professores/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/etip/" />
+        <folder expanded="1" path="animation-folder/eprob/" />
+        <folder expanded="1" path="animation-folder/esn/" />
+        <folder expanded="1" path="animation-folder/etip2/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/CP/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/DCP/" />
+        <folder expanded="1" path="animation-folder/SJU/" />
+        <folder expanded="1" path="animation-folder/SES/" />
+    </folders-expanded>
+</c2uistate>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ComandosCutscene3</name>
+    <events>
+        <variable constant="0" name="velocidade" sid="426052600630860" static="0" type="number">0</variable>
+        <event-block sid="378961376044957">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="488094138774684" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="147666956022920" type="TiledBackground">
+                    <param id="0" name="X">-31</param>
+                    <param id="1" name="Y">-16</param>
+                </action>
+                <action id="-3" name="Set position" sid="672711890742971" type="Ct16">
+                    <param id="0" name="X">21</param>
+                    <param id="1" name="Y">73</param>
+                </action>
+                <action id="-3" name="Set position" sid="553383774923062" type="AperteX">
+                    <param id="0" name="X">638</param>
+                    <param id="1" name="Y">254</param>
+                </action>
+                <action id="-16" name="Wait" sid="771179809617270" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
+                <action id="-15" name="Set visible" sid="523586143398831" type="AperteX">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="237498293342407">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="932241738415639" type="Keyboard">
+                    <param id="0" name="Key">88 (X)</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="813194044777524" type="AperteX" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="629648787436141" type="TiledBackground">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="639109589148531" type="Ct16">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="563051577263613" type="AperteX">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="727395545448928">
+            <conditions />
+            <actions>
+                <action id="4" name="Set animation" sid="630499873776039" type="Amigo1">
+                    <param id="0" name="Animation">&quot;direita&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="475608227877942">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="991108827629988" type="Amigo1">
+                    <param id="0" name="Object">Marca</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="818505059906269" type="Amigo1">
+                    <param id="0" name="Animation">&quot;parado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="870362219984371">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="351199728102677" type="System">
+                    <param id="0" name="Variable">velocidade</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="290478035847073" type="System">
+                    <param id="0" name="Variable">velocidade</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="708444752508768">
+            <conditions />
+            <actions>
+                <action id="-16" name="Wait" sid="806835183797608" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
