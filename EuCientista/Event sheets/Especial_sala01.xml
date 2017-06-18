@@ -274,6 +274,9 @@
                 <action id="-8" name="Set angle" sid="860677132420388" type="posição_personagem">
                     <param id="0" name="Angle">90</param>
                 </action>
+                <action id="2" name="Stop" sid="257106041861392" type="NPC1" />
+                <action id="2" name="Stop" sid="481124382307649" type="NPC2" />
+                <action id="2" name="Stop" sid="177698552319258" type="NPC3" />
             </actions>
         </event-block>
         <event-group description="" sid="336806641343990" title="Conversas">
@@ -739,11 +742,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="945582115821206">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="786462676414842" type="System" />
-            </conditions>
-            <actions />
-        </event-block>
     </events>
 </c2eventsheet>

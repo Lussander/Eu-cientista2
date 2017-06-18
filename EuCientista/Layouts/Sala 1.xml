@@ -361,28 +361,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Amigo1" uid="144">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>112.736801147</x>
-                        <y>117.634506226</y>
-                        <z>0</z>
-                        <width>16</width>
-                        <height>28.518096924</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.51111114</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="PortaSala1" uid="145">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -421,8 +399,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>121.499763489</x>
-                        <y>91.372772217</y>
+                        <x>126.554801941</x>
+                        <y>92.29196167</y>
                         <z>0</z>
                         <width>25.00399971</width>
                         <height>20.896999359</height>
@@ -475,11 +453,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>124.353286743</x>
-                        <y>118.121429443</y>
+                        <x>128.690963745</x>
+                        <y>118.121154785</y>
                         <z>0</z>
-                        <width>39.427429199</width>
-                        <height>40.20161438</height>
+                        <width>56.776992798</width>
+                        <height>43.092849731</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -698,6 +676,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="NPC1" uid="291">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>109.57925415</x>
+                        <y>116.497619629</y>
+                        <z>0</z>
+                        <width>19</width>
+                        <height>31</height>
+                        <depth>0</depth>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.516129017</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -772,14 +772,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>308.494689941</x>
-                        <y>133.27557373</y>
+                        <x>319.064849854</x>
+                        <y>113.054748535</y>
                         <z>0</z>
                         <width>16.061635971</width>
                         <height>23.936426163</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NPC2" uid="144">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>126</x>
+                        <y>124.448997498</y>
+                        <z>0</z>
+                        <width>18</width>
+                        <height>29</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.517241359</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NPC3" uid="292">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>142.078369141</x>
+                        <y>116.564888</y>
+                        <z>0</z>
+                        <width>16</width>
+                        <height>27</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.518518507</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

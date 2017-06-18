@@ -2112,6 +2112,81 @@
         <object-type name="sp34" sid="798562083675055">
             <plugin id="Text" />
         </object-type>
+        <object-type name="NPC1" sid="130386725708229">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="551012438010750" speed="5">
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Direita\NPC01-Sprite.png_10.png" />
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Direita\NPC01-Sprite.png_11.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Direita\NPC01-Sprite.png_12.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="147369106696466" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Cima\NPC01-Sprite.png_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Cima\NPC01-Sprite.png_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Cima\NPC01-Sprite.png_03.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="337357762607016" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Baixo\NPC01-Sprite.png_04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Baixo\NPC01-Sprite.png_05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Baixo\NPC01-Sprite.png_06.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="998678741259308" speed="5">
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Esquerda\NPC01-Sprite.png_07.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Esquerda\NPC01-Sprite.png_08.png" />
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC1\Esquerda\NPC01-Sprite.png_09.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NPC2" sid="848885206482810">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="478711454155564" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Cima\NPC02_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Cima\NPC02_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Cima\NPC02_03.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="927927822914924" speed="5">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Esquerda\NPC02_08.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Esquerda\NPC02_07.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Esquerda\NPC02_09.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="864611753362556" speed="5">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Direita\NPC02_10.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Direita\NPC02_11.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Direita\NPC02_12.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="639485216786427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Baixo\NPC02_04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Baixo\NPC02_05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC2\Baixo\NPC02_06.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NPC3" sid="754049256060886">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="251313751743370" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_09.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="114205265290087" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_05.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_04.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_06.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="771340514779395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_02.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_01.png" />
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_03.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="852213163598338" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_12.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
