@@ -10,11 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Sala 1</layout>
-        <layout order="1">Lab</layout>
-        <layout order="3">Menu</layout>
-        <event-sheet order="2">Lab</event-sheet>
-        <event-sheet order="4">Especial_sala01</event-sheet>
+        <layout order="0">Sala 5</layout>
+        <layout order="1">Sala 6</layout>
+        <layout order="2">Sala 3</layout>
+        <layout order="3">Sala 4</layout>
+        <layout active="1" order="4">Sala 7</layout>
+        <layout order="5">Sala 8</layout>
+        <layout order="6">Sala 2</layout>
+        <layout order="7">Sala 1</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -136,5 +139,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/NPC1/" />
         <folder expanded="1" path="animation-folder/NPC2/" />
         <folder expanded="1" path="animation-folder/NPC3/" />
+        <folder expanded="1" path="animation-folder/Bloqueador/" />
     </folders-expanded>
 </c2uistate>

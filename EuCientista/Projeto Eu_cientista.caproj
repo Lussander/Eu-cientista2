@@ -1176,7 +1176,7 @@
         </object-type>
         <object-type name="Corredores_chão" sid="740955143369659">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Corredores_sólida" sid="669693440964554">
@@ -1186,7 +1186,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Corredores_superior1" sid="724442327647753">
@@ -1196,7 +1196,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Corredores_superior2" sid="449625753269325">
@@ -1206,7 +1206,7 @@
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\PC\Documents\Lussander\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Bloqueador2" sid="701567715593565">
@@ -1222,9 +1222,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Salas_CHão" sid="471023829004062">
+        <object-type name="Salas_Chão" sid="471023829004062">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\PC\Documents\Lussander\Tilemap.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite22" sid="724796900710728">
@@ -1245,29 +1245,24 @@
             <texture original-source="C:\Users\PC\Documents\Lussander\Tilemap.png" />
             <tiles />
         </object-type>
-        <object-type name="Salas_Solidos" sid="370569916503833">
+        <object-type name="Salas_Sólida" sid="370569916503833">
             <plugin id="Tilemap" />
             <behaviors>
                 <behavior-type name="Solid" sid="758370438650550">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
-        <object-type name="Salas_Solidos2" sid="450280582734322">
+        <object-type name="Salas_Superior01" sid="450280582734322">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\PC\Desktop\Lussander\TMXs\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
-        <object-type name="Salas_Solidos3" sid="587714762412472">
+        <object-type name="Salas_Superior02" sid="587714762412472">
             <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="Solid" sid="594981543527098">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="C:\Users\Sonia\Downloads\salas de aula\TilesSaladeAula.png" />
+            <texture original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\Ilustração\Tilesets\TilesSaladeAula.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite28" sid="346263553478368">
@@ -2184,6 +2179,19 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_11.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_10.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_12.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bloqueador" sid="572306474545895">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="171835610210446">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502420071214032" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
