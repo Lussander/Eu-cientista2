@@ -14,10 +14,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="1">Sala 6</layout>
         <layout order="2">Sala 3</layout>
         <layout order="3">Sala 4</layout>
-        <layout active="1" order="4">Sala 7</layout>
+        <layout order="4">Sala 7</layout>
         <layout order="5">Sala 8</layout>
         <layout order="6">Sala 2</layout>
         <layout order="7">Sala 1</layout>
+        <event-sheet active="1" order="8">Salas</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -140,5 +141,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/NPC2/" />
         <folder expanded="1" path="animation-folder/NPC3/" />
         <folder expanded="1" path="animation-folder/Bloqueador/" />
+        <folder expanded="1" path="animation-folder/Bloqueador_mesinha/" />
     </folders-expanded>
 </c2uistate>

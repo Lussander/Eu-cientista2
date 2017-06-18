@@ -18,6 +18,70 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="346770225197186" title="Sistema de layers">
+            <sub-events>
+                <event-block sid="107290550561655">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="956344761359487" type="Player">
+                            <param id="0" name="Object">Bloqueador</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="153948924153456" type="posição_personagem">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="998919826901639" type="Player">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="972507432487392">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="828863260939455" type="Player">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador_mesinha.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="703222332588449" type="Player">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="902592812685136">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="329338382493766" type="posição_personagem">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador.Y-20</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="759168468232891" type="posição_personagem">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="751873957582983" type="Player">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="108735082523994">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="459982339077688" type="posição_personagem">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="117108511093288" type="posição_personagem">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="764696680469838" type="Player">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="155562632751590" title="Movimento_Final3">
             <sub-events>
                 <event-block sid="733731007111807">

@@ -856,7 +856,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Bloqueador" uid="373">
+                <instance type="Bloqueador_mesinha" uid="373">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -873,11 +873,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>148.056335449</x>
-                        <y>97.250511169</y>
+                        <x>146.124710083</x>
+                        <y>96.675682068</y>
                         <z>0</z>
-                        <width>29.710643768</width>
-                        <height>11.798239708</height>
+                        <width>31.532272339</width>
+                        <height>13.67755127</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

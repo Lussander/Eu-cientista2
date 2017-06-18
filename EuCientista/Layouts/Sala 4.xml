@@ -383,7 +383,7 @@
                 </instance>
                 <instance type="posição_personagem" uid="62">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -409,8 +409,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>254.093826294</x>
-                        <y>98.132698059</y>
+                        <x>226.773513794</x>
+                        <y>102.913856506</y>
                         <z>0</z>
                         <width>7.576441765</width>
                         <height>7.018174171</height>
@@ -856,7 +856,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Bloqueador" uid="415">
+                <instance type="Bloqueador_mesinha" uid="356">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -873,11 +873,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>147.278884888</x>
-                        <y>96.9090271</y>
+                        <x>146.255096436</x>
+                        <y>96.908401489</y>
                         <z>0</z>
-                        <width>28.39320755</width>
-                        <height>12.363553047</height>
+                        <width>30.166152954</width>
+                        <height>12.311958313</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

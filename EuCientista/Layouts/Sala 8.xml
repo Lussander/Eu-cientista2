@@ -383,7 +383,7 @@
                 </instance>
                 <instance type="posição_personagem" uid="158">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -409,8 +409,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>253</x>
-                        <y>105</y>
+                        <x>189.04524231</x>
+                        <y>120.522903442</y>
                         <z>0</z>
                         <width>7.576441765</width>
                         <height>7.018174171</height>
@@ -496,8 +496,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>186.834060669</x>
-                        <y>144.176803589</y>
+                        <x>187.45526123</x>
+                        <y>145.418731689</y>
                         <z>0</z>
                         <width>20.264245987</width>
                         <height>11.656647682</height>
@@ -856,7 +856,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Bloqueador" uid="460">
+                <instance type="Bloqueador_mesinha" uid="387">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -873,11 +873,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>147.095184326</x>
-                        <y>97.296768188</y>
+                        <x>147.008239746</x>
+                        <y>97.322189331</y>
                         <z>0</z>
-                        <width>27.914564133</width>
-                        <height>10.986262321</height>
+                        <width>30.66859436</width>
+                        <height>12.802230835</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
