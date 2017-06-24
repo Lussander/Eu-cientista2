@@ -39,6 +39,100 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="859860498517244" title="Sistema de layers2">
+            <sub-events>
+                <event-block sid="728255003392009">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="599356531164693" type="Player">
+                            <param id="0" name="Object">Bloqueador</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="275494481849619" type="posição_personagem">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="594602867483674" type="Player">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130542775620792">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="100260370689245" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="839884893943273" type="posição_personagem">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador_mesinha.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="650764398083684" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="219406143836587">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="132153199616070" type="Player">
+                            <param id="0" name="Object">Bloqueador_mesinha</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="235842677149709" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="507652069712297" type="Player">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="940285936906247" type="posição_personagem">
+                            <param id="0" name="Layer">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="955641684494215">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="579775066783493" type="posição_personagem">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador.Y-20</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="221149844230266" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="217939325289909" type="posição_personagem">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="151787589453455" type="Player">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="686997014761927">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="945205202665044" type="posição_personagem">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">Bloqueador.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="776733335324544" type="posição_personagem">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                        <action id="-26" name="Move to layer" sid="398137862259276" type="Player">
+                            <param id="0" name="Layer">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="668949804044300" title="Movimento_Final5">
             <sub-events>
                 <event-block sid="571688777846488">

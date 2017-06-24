@@ -676,6 +676,13 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -698,6 +705,13 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -720,6 +734,13 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -756,7 +777,7 @@
             <instances>
                 <instance type="posição_personagem" uid="159">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -868,10 +889,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>138.909484863</x>
-                        <y>144.847808838</y>
+                        <y>145.440490723</y>
                         <z>0</z>
                         <width>17.929891586</width>
-                        <height>10.415192604</height>
+                        <height>9.229783058</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -897,10 +918,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>187.072784424</x>
-                        <y>144.201324463</y>
+                        <y>145.090255737</y>
                         <z>0</z>
                         <width>17.929891586</width>
-                        <height>10.415192604</height>
+                        <height>8.637299538</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -926,10 +947,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>235.236083984</x>
-                        <y>144.434951782</y>
+                        <y>145.027450562</y>
                         <z>0</z>
                         <width>17.929891586</width>
-                        <height>10.415192604</height>
+                        <height>9.230225563</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1263,9 +1284,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <layer>0</layer>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1277,10 +1295,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>147.275024414</x>
-                        <y>97.478546143</y>
+                        <y>98.663955688</y>
                         <z>0</z>
                         <width>31.532272339</width>
-                        <height>13.67755127</height>
+                        <height>11.306732178</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

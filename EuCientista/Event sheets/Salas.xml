@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Salas</name>
     <events>
+        <variable constant="0" name="Layer_salas" sid="514812067624345" static="0" type="number">0</variable>
         <event-block sid="860476685134493">
             <conditions>
                 <condition id="6" name="On object clicked" sid="670537182259586" type="Mouse">
@@ -37,8 +38,8 @@
                 </event-block>
                 <event-block sid="245762796694816">
                     <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="824991018437916" type="Bloqueador_mesinha">
-                            <param id="0" name="Instance variable">layer</param>
+                        <condition id="-14" name="Compare variable" sid="824991018437916" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -48,8 +49,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="439177973812140" type="Bloqueador_mesinha">
-                            <param id="0" name="Instance variable">layer</param>
+                        <action id="-9" name="Set value" sid="439177973812140" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
@@ -61,8 +62,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="293798409186303" type="Bloqueador_mesinha">
-                            <param id="0" name="Instance variable">layer</param>
+                        <action id="-9" name="Set value" sid="683057540928828" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-26" name="Move to layer" sid="703222332588449" type="Player">
@@ -79,8 +80,8 @@
                             <param id="0" name="Comparison">2</param>
                             <param id="1" name="Y co-ordinate">Bloqueador.Y-20</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="611998757336006" type="Bloqueador_mesinha">
-                            <param id="0" name="Instance variable">layer</param>
+                        <condition id="-14" name="Compare variable" sid="611998757336006" type="System">
+                            <param id="0" name="Variable">Layer_salas</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
