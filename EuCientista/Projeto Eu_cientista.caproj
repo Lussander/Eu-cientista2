@@ -2197,6 +2197,9 @@
         </object-type>
         <object-type name="Bloqueador_mesinha" sid="355907293848828">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="layer" sid="883139529619057" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="Solid" sid="462041880515936">
                     <behavior id="solid" />
