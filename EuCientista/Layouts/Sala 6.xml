@@ -383,7 +383,7 @@
                 </instance>
                 <instance type="posição_personagem" uid="161">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -439,10 +439,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>90.719009399</x>
-                        <y>144.991134644</y>
+                        <y>146.015579224</y>
                         <z>0</z>
                         <width>18.61322403</width>
-                        <height>11.789523125</height>
+                        <height>9.740603447</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -468,10 +468,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>138.188964844</x>
-                        <y>144.649749756</y>
+                        <y>145.332794189</y>
                         <z>0</z>
                         <width>19.296543121</width>
-                        <height>11.106722832</height>
+                        <height>9.740603447</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -497,10 +497,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>187.366149902</x>
-                        <y>145.332275391</y>
+                        <y>145.673919678</y>
                         <z>0</z>
                         <width>17.929904938</width>
-                        <height>12.363553047</height>
+                        <height>11.680233955</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -526,10 +526,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>235.519424438</x>
-                        <y>144.991653442</y>
+                        <y>145.674697876</y>
                         <z>0</z>
                         <width>19.979877472</width>
-                        <height>11.789523125</height>
+                        <height>10.42340374</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -555,10 +555,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>283.328430176</x>
-                        <y>144.649734497</y>
+                        <y>144.991149902</y>
                         <z>0</z>
                         <width>19.978824615</width>
-                        <height>11.106722832</height>
+                        <height>10.423922539</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -874,10 +874,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>147.068817139</x>
-                        <y>97.521522522</y>
+                        <y>98.204582214</y>
                         <z>0</z>
                         <width>31.532272339</width>
-                        <height>13.67755127</height>
+                        <height>12.311431885</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

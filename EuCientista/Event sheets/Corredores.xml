@@ -237,7 +237,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block bookmark="1" sid="277290376805871">
+        <event-block bookmark="1" disabled="1" sid="277290376805871">
             <conditions>
                 <condition id="-16" name="Is on layer" sid="949681549160042" type="posição_personagem">
                     <param id="0" name="Layer">&quot;Personagem&quot;</param>
@@ -292,8 +292,8 @@
                 </event-block>
                 <event-block sid="846121796817364">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="632208242513254" type="Porta_Para_Sala1">
-                            <param id="0" name="Object">Player</param>
+                        <condition id="0" name="On collision with another object" sid="632208242513254" type="Player">
+                            <param id="0" name="Object">Porta_Para_Sala1</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -416,9 +416,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="878249280350067" type="posição_personagem">
-                    <param id="0" name="X">559.803</param>
-                    <param id="1" name="Y">577</param>
+                <action id="-3" name="Set position" sid="326761759165734" type="posição_personagem">
+                    <param id="0" name="X">562</param>
+                    <param id="1" name="Y">580</param>
                 </action>
                 <action id="-9" name="Set value" sid="466504286792414" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -435,9 +435,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="326761759165734" type="posição_personagem">
-                    <param id="0" name="X">319.556</param>
-                    <param id="1" name="Y">535.742</param>
+                <action id="-3" name="Set position" sid="731296082418223" type="posição_personagem">
+                    <param id="0" name="X">321</param>
+                    <param id="1" name="Y">553</param>
                 </action>
                 <action id="-9" name="Set value" sid="894077175136087" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -456,7 +456,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="927645993577827" type="posição_personagem">
                     <param id="0" name="X">562.743</param>
-                    <param id="1" name="Y"> 535.742</param>
+                    <param id="1" name="Y">555</param>
                 </action>
                 <action id="-9" name="Set value" sid="940418735522831" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -474,8 +474,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="880510102876705" type="posição_personagem">
-                    <param id="0" name="X">1230.037</param>
-                    <param id="1" name="Y">577</param>
+                    <param id="0" name="X">1234</param>
+                    <param id="1" name="Y">591</param>
                 </action>
                 <action id="-9" name="Set value" sid="573111240230273" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -494,7 +494,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="149673051320534" type="posição_personagem">
                     <param id="0" name="X">1472.247</param>
-                    <param id="1" name="Y">577</param>
+                    <param id="1" name="Y">584</param>
                 </action>
                 <action id="-9" name="Set value" sid="983649096523273" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -513,7 +513,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="324481623789293" type="posição_personagem">
                     <param id="0" name="X">1232.981</param>
-                    <param id="1" name="Y"> 536.723</param>
+                    <param id="1" name="Y">550</param>
                 </action>
                 <action id="-9" name="Set value" sid="833582090359280" type="System">
                     <param id="0" name="Variable">salas</param>
@@ -532,7 +532,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="182634985944299" type="posição_personagem">
                     <param id="0" name="X">1472.247</param>
-                    <param id="1" name="Y"> 537.664</param>
+                    <param id="1" name="Y">550</param>
                 </action>
                 <action id="-9" name="Set value" sid="153834879173746" type="System">
                     <param id="0" name="Variable">salas</param>
