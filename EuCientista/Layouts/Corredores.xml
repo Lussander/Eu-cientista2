@@ -268,8 +268,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>244</x>
-                        <y>183</y>
+                        <x>239.569778442</x>
+                        <y>217.549957275</y>
                         <z>0</z>
                         <width>20</width>
                         <height>30</height>
@@ -922,6 +922,28 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Porta_para_aBilbioteca" uid="460">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>747.5</x>
+                        <y>279.5</y>
+                        <z>0</z>
+                        <width>36</width>
+                        <height>22</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.600000024</opacity>
                     </world>
                 </instance>
             </instances>

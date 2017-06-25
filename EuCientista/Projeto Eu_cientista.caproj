@@ -23,6 +23,7 @@
         <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
@@ -558,6 +559,9 @@
             <behaviors>
                 <behavior-type name="ScrollTo" sid="903131602166769">
                     <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="621319814957735">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2159,26 +2163,128 @@
         </object-type>
         <object-type name="NPC3" sid="754049256060886">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="565914960447296">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="866895899397554">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="0" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="251313751743370" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_08.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_07.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_09.png" />
+                <animation framecount="3" loop="1" name="Esquerda" pingpong="0" repeatcount="1" repeatto="0" sid="251313751743370" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_08.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_07.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Esquerda\NPC03_09.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
                 </animation>
-                <animation framecount="3" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="114205265290087" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_05.png" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_04.png" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_06.png" />
+                <animation framecount="3" loop="1" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="114205265290087" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_05.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_04.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_06.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
                 </animation>
-                <animation framecount="3" loop="0" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="771340514779395" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_02.png" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_01.png" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_03.png" />
+                <animation framecount="3" loop="1" name="Baixo" pingpong="0" repeatcount="1" repeatto="0" sid="771340514779395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_02.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_01.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.529412" hotspotY="0.517241" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Baixo\NPC03_03.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
                 </animation>
-                <animation framecount="3" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="852213163598338" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_12.png" />
+                <animation framecount="3" loop="1" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="852213163598338" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_11.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_10.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_12.png">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="parado" pingpong="0" repeatcount="1" repeatto="0" sid="236243616888154" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519">
+                        <collision-poly>
+                            <point x="0.109375" y="0.416667" />
+                            <point x="0.835938" y="0.449074" />
+                            <point x="0.84375" y="0.925926" />
+                            <point x="0.132813" y="0.935185" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -2207,6 +2313,218 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Exclamação_Lab" sid="330035360047170">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="793125416353315">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602388053340753" speed="5">
+                    <frame duration="1" hotspotX="0.48" hotspotY="0.48" original-source="C:\Users\Sonia\Desktop\exclamação.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.48" y="0" />
+                            <point x="0.982858" y="0" />
+                            <point x="1" y="0.48" />
+                            <point x="0.914286" y="0.914286" />
+                            <point x="0.48" y="1" />
+                            <point x="0.04" y="0.92" />
+                            <point x="0" y="0.48" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Porta_para_aBilbioteca" sid="970226744595611">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947914377084650" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp35" sid="738904139389830">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Cpnl" sid="857738855232374">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="914592852086064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortaDaBiblioteca" sid="710742726155472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816821350196542" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="659895818157869">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="496847281446502" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="698070965452385">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="862368228725743">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858061779807379" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="767374838875601">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491020331251785" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29" sid="395577088012106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994325916387990" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite30" sid="295270898977120">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832914130502972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Exclamação_Biblioteca" sid="253718845270379">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="travar" sid="355121508122132" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Flash" sid="700989772350289">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446712944461485" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sonia\Desktop\exclamação.png">
+                        <collision-poly>
+                            <point x="0.217143" y="0.217143" />
+                            <point x="0.5" y="0.157143" />
+                            <point x="0.751429" y="0.248571" />
+                            <point x="0.811429" y="0.5" />
+                            <point x="0.717143" y="0.717143" />
+                            <point x="0.5" y="0.842857" />
+                            <point x="0.28" y="0.72" />
+                            <point x="0.157143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="parador" sid="525082626041327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="999163165694950" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp36" sid="719196085389979">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp37" sid="192881503165253">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp38" sid="743640518425606">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp39" sid="825381101061612">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp40" sid="980376248039298">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp41" sid="460574385565776">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp42" sid="795821987242331">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp43" sid="864892539026172">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite31" sid="890387501839588">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346191638563513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503268" original-source="C:\Users\Sonia\Desktop\mesa.png">
+                        <collision-poly>
+                            <point x="0.229358" y="0.326797" />
+                            <point x="0.5" y="0.320261" />
+                            <point x="0.752294" y="0.496732" />
+                            <point x="0.743119" y="0.633987" />
+                            <point x="0.5" y="0.869281" />
+                            <point x="0.311927" y="0.555556" />
+                            <point x="0.155963" y="0.496732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Desviador" sid="501129560351211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527433730756187" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="parador2" sid="670720262622567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384060780696533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Idd" sid="254344927730771">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="298530872501778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp44" sid="698867785398756">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp45" sid="735904852883747">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp46" sid="221138431730437">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp47" sid="540472378260986">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp48" sid="991180677511353">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
