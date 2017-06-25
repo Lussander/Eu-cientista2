@@ -10,21 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-<<<<<<< HEAD
-        <layout order="5">Lab</layout>
-        <layout order="2">Corredores</layout>
-        <layout order="0">Bibiliotecas</layout>
-        <layout order="6">Sala 1</layout>
-        <event-sheet order="3">Lab</event-sheet>
-        <event-sheet order="4">Corredores</event-sheet>
-        <event-sheet active="1" order="1">Bibliotecas</event-sheet>
-=======
-        <layout active="1" order="0">Corredores</layout>
-        <layout order="2">Lab</layout>
-        <layout order="3">Cutscene 2</layout>
-        <layout order="4">Cutscene 1</layout>
-        <event-sheet order="1">Corredores</event-sheet>
->>>>>>> e1a7ae9b277cf08aaaccb65c04a1746ace8f8aa2
+        <layout order="4">Corredores</layout>
+        <layout order="3">Lab</layout>
+        <layout active="1" order="0">Bibiliotecas</layout>
+        <event-sheet order="5">Corredores</event-sheet>
+        <event-sheet order="1">Bibliotecas</event-sheet>
+        <event-sheet order="2">Lab</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -148,20 +139,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/NPC3/" />
         <folder expanded="1" path="animation-folder/Bloqueador/" />
         <folder expanded="1" path="animation-folder/Bloqueador_mesinha/" />
-        <folder expanded="1" path="animation-folder/Exclamação_Lab/" />
         <folder expanded="1" path="animation-folder/Porta_para_aBilbioteca/" />
-        <folder expanded="1" path="animation-folder/Cpnl/" />
-        <folder expanded="1" path="animation-folder/PortaDaBiblioteca/" />
-        <folder expanded="1" path="animation-folder/Sprite15/" />
-        <folder expanded="1" path="animation-folder/Sprite16/" />
-        <folder expanded="1" path="animation-folder/Sprite17/" />
-        <folder expanded="1" path="animation-folder/Sprite29/" />
-        <folder expanded="1" path="animation-folder/Sprite30/" />
+        <folder expanded="1" path="animation-folder/Cnpl/" />
+        <folder expanded="1" path="animation-folder/Exclamação_Lab/" />
         <folder expanded="1" path="animation-folder/Exclamação_Biblioteca/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/Parade/" />
+        <folder expanded="1" path="animation-folder/PortaDaBiblioteca/" />
+        <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/parador/" />
-        <folder expanded="1" path="animation-folder/Sprite31/" />
-        <folder expanded="1" path="animation-folder/Desviador/" />
         <folder expanded="1" path="animation-folder/parador2/" />
+        <folder expanded="1" path="animation-folder/Desviador/" />
         <folder expanded="1" path="animation-folder/Idd/" />
     </folders-expanded>
 </c2uistate>

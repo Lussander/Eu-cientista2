@@ -1463,55 +1463,55 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="764598702990480">
+        <event-block sid="778165289305089">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="581128714953056" type="System">
+                <condition id="0" name="On collision with another object" sid="777372130025097" type="Player">
+                    <param id="0" name="Object">Porta_para_aBilbioteca</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="770055218507558" type="System">
+                    <param id="0" name="Layout">Bibiliotecas</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="983114319620129">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="805294391244161" type="Exclamação_mapa">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="X co-ordinate">737</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="772122232572618" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action id="-15" name="Set visible" sid="208041676739226" type="Exclamação_mapa">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="702372005776380" type="System">
+                    <param id="0" name="Seconds">0.8</param>
+                </action>
+                <action id="-15" name="Set visible" sid="829370133977180" type="Exclamação_mapa">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="517056047065119">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="871228201077224" type="System">
                     <param id="0" name="Variable">Lab</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="212064572615609" type="Exclamação_mapa">
+                <action id="-3" name="Set position" sid="968557641548995" type="Exclamação_mapa">
                     <param id="0" name="X">737</param>
                     <param id="1" name="Y">273</param>
                 </action>
-                <action id="-15" name="Set visible" sid="191176154518978" type="Exclamação_mapa">
+                <action id="-15" name="Set visible" sid="896346676383696" type="Exclamação_mapa">
                     <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="487276668647392">
-            <conditions>
-                <condition id="-1" name="Compare X" sid="666332199714261" type="Exclamação_mapa">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="X co-ordinate">737</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="180723349881183" type="System">
-                    <param id="0" name="Seconds">0.8</param>
-                </action>
-                <action id="-15" name="Set visible" sid="582222477411129" type="Exclamação_mapa">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="913414065229862" type="System">
-                    <param id="0" name="Seconds">0.8</param>
-                </action>
-                <action id="-15" name="Set visible" sid="360424796427144" type="Exclamação_mapa">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="959402857973639">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="407938404975930" type="Player">
-                    <param id="0" name="Object">Porta_para_aBilbioteca</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="413948558798000" type="System">
-                    <param id="0" name="Layout">Bibiliotecas</param>
                 </action>
             </actions>
         </event-block>
