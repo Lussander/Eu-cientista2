@@ -10,6 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout order="5">Lab</layout>
         <layout order="2">Corredores</layout>
         <layout order="0">Bibiliotecas</layout>
@@ -17,6 +18,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="3">Lab</event-sheet>
         <event-sheet order="4">Corredores</event-sheet>
         <event-sheet active="1" order="1">Bibliotecas</event-sheet>
+=======
+        <layout active="1" order="0">Corredores</layout>
+        <layout order="2">Lab</layout>
+        <layout order="3">Cutscene 2</layout>
+        <layout order="4">Cutscene 1</layout>
+        <event-sheet order="1">Corredores</event-sheet>
+>>>>>>> e1a7ae9b277cf08aaaccb65c04a1746ace8f8aa2
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
