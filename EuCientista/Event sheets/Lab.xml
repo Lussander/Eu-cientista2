@@ -5234,5 +5234,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="118417185185449">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="142103914277928" type="System">
+                    <param id="0" name="Variable">Lab</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="591667836612763" type="Cnpl">
+                    <param id="0" name="X">386</param>
+                    <param id="1" name="Y">55</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

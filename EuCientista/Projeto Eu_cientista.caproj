@@ -839,11 +839,6 @@
                 <instance-variable name="Direção" sid="724069451723312" type="number" />
                 <instance-variable name="Tempo_passo" sid="116928159686263" type="number" />
             </instance-variables>
-            <behaviors>
-                <behavior-type name="Solid" sid="671397542573120">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="4" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="555342332447772" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1">

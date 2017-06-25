@@ -373,13 +373,6 @@
                         <Direção>0</Direção>
                         <Tempo_passo>0</Tempo_passo>
                     </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -2428,7 +2421,7 @@
                 </instance>
                 <instance type="Cnpl" uid="461">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -2436,8 +2429,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>386</x>
-                        <y>55</y>
+                        <x>167</x>
+                        <y>62</y>
                         <z>0</z>
                         <width>53</width>
                         <height>56</height>
