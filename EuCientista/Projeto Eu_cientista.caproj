@@ -2532,6 +2532,131 @@
         <object-type name="sp49" sid="270379301182444">
             <plugin id="Text" />
         </object-type>
+        <object-type name="sp50" sid="488652042369618">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp51" sid="973497954529019">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp52" sid="620381295212442">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp53" sid="680775943444437">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp54" sid="172540366533228">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp55" sid="707730239062732">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp56" sid="203069585245073">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp57" sid="337131548943438">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp58" sid="125003825455692">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp59" sid="344266463825879">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp60" sid="424219511225045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp61" sid="542754506299121">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite17" sid="740310208706828">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="611861756329998">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603519727678586" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sonia\Desktop\mesa.png">
+                        <collision-poly>
+                            <point x="0.229358" y="0.326797" />
+                            <point x="0.5" y="0.320261" />
+                            <point x="0.752294" y="0.496732" />
+                            <point x="0.743119" y="0.633987" />
+                            <point x="0.5" y="0.869281" />
+                            <point x="0.311927" y="0.555556" />
+                            <point x="0.155963" y="0.496732" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pclivro" sid="866888734654314">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="spclivro" sid="126850553197153">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550392299366788" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spclivro2" sid="452624138613012">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="671051163575499">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257076879504246" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp62" sid="459421995866781">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp63" sid="248556975576707">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="spclivro3" sid="578861301502576">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802372182927959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SliderBar" sid="570674771672198">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="barrap1" sid="327926986566473">
+            <plugin id="progressbar" />
+            <instance-variables>
+                <instance-variable name="a" sid="158174322088340" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="barrap2" sid="118698533388552">
+            <plugin id="progressbar" />
+            <instance-variables>
+                <instance-variable name="a" sid="677488625489432" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="atualizarframes" sid="696670662653081">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="849034258894187">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991379770837095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

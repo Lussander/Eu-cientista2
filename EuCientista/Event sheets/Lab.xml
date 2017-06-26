@@ -4785,6 +4785,10 @@
                             <param id="0" name="Variable">Lab</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="365529843322799" type="System">
+                            <param id="0" name="Variable">Açao</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

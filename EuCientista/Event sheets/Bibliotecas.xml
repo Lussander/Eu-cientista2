@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Bibliotecas</name>
     <events>
+        <variable constant="0" name="pclivroaux" sid="763467769274633" static="0" type="number">0</variable>
+        <variable constant="0" name="pclivrov" sid="328988494840994" static="0" type="number">0</variable>
         <event-group description="" sid="892372938900826" title="Movimento_Final8">
             <sub-events>
                 <event-block sid="599112104490308">
@@ -935,255 +937,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="466993880131313" type="box">
+                <action disabled="1" id="-2" name="Set Y" sid="466993880131313" type="box">
                     <param id="0" name="Y">posição_personagem.Y+35</param>
                 </action>
-                <action id="-1" name="Set X" sid="347618677208018" type="box">
+                <action disabled="1" id="-1" name="Set X" sid="347618677208018" type="box">
                     <param id="0" name="X">posição_personagem.x+75</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="891286994213630">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="865653930833135" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="320403854837096" type="sp36" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="149986362697787" type="sp36">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="418250335568035" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="160259702858892" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="451121171482586" type="sp37">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="943687437485328" type="sp37">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="731735919615417">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="460598986572864" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="787167904835165" type="sp37" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="385980515422176" type="sp37">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="625741447634881" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="872351798633623" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="516400036321847" type="sp38">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="159176078631890" type="sp38">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="281923483044193">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="676080022814906" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="567845618420114" type="sp38" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="500482324250191" type="sp38">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="510214121550714" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="413835967608714" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="336847510955526" type="sp39">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="679776457074458" type="sp39">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="992570764505197">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="490844321304828" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="398171123349231" type="sp39" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="807990889716557" type="sp39">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="270870214366898" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="439812239946264" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="275371764775332" type="sp40">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="997910499588198" type="sp40">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="687009091186120">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="942872730823134" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="557599722117501" type="sp40" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="173679891329902" type="sp40">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="905953569451946" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="942839093869311" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="226111771971609" type="sp41">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="252039551879722" type="sp41">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="109403413417467">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="777873232375008" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="493704425653113" type="sp41" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="228646563168479" type="sp41">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="923683163156495" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="792709615372474" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="783340038815548" type="sp42">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="779219789807222" type="sp42">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="328075158346413">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="891108677410300" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="864340916222082" type="sp42" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="442406410020930" type="sp42">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="367371552137522" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="903737899038526" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="296602153119081" type="sp43">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="108032348964847" type="sp43">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="548323457136420">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="939665826312717" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="648420428853909" type="sp43" />
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="757721453007284" type="sp43">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="491273744207070" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-2</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="224311020230211" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="479234398678858" type="box">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="473328125380086" type="NPC3">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="100772348918168" type="NPC3">
-                    <param id="0" name="Angle">0</param>
-                </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="548190615322391" type="NPC3">
-                    <param id="0" name="Speed">50</param>
-                </action>
-                <action id="4" name="Set animation" sid="248243290355056" type="NPC3">
-                    <param id="0" name="Animation">&quot;Direita&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action behavior="8Direction" id="8" name="Set enabled" sid="598850866804557" type="posição_personagem">
-                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -1243,6 +1001,12 @@
                 <condition id="-9" name="Is visible" sid="243913997064761" type="Exclamação_Biblioteca" />
             </conditions>
             <actions>
+                <action id="-2" name="Set Y" sid="548322917760066" type="box">
+                    <param id="0" name="Y">297</param>
+                </action>
+                <action id="-1" name="Set X" sid="823774193032297" type="box">
+                    <param id="0" name="X">195</param>
+                </action>
                 <action id="-15" name="Set visible" sid="798224807079500" type="sp44">
                     <param id="0" name="Visibility">1</param>
                 </action>
@@ -1279,148 +1043,1049 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="145203186319757">
+        <event-group description="" sid="865364221667624" title="Conversa">
+            <sub-events>
+                <event-block sid="891286994213630">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="865653930833135" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="320403854837096" type="sp36" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="149986362697787" type="sp36">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="418250335568035" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="160259702858892" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="451121171482586" type="sp37">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="943687437485328" type="sp37">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="731735919615417">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="460598986572864" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="787167904835165" type="sp37" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="385980515422176" type="sp37">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="625741447634881" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="872351798633623" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="516400036321847" type="sp38">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="159176078631890" type="sp38">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="281923483044193">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="676080022814906" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="567845618420114" type="sp38" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="500482324250191" type="sp38">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="510214121550714" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="413835967608714" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="336847510955526" type="sp39">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="679776457074458" type="sp39">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="992570764505197">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="490844321304828" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="398171123349231" type="sp39" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="807990889716557" type="sp39">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="270870214366898" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="439812239946264" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="275371764775332" type="sp40">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="997910499588198" type="sp40">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="687009091186120">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="942872730823134" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="557599722117501" type="sp40" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="173679891329902" type="sp40">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="905953569451946" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="942839093869311" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="226111771971609" type="sp41">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="252039551879722" type="sp41">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="109403413417467">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="777873232375008" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="493704425653113" type="sp41" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="228646563168479" type="sp41">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="923683163156495" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="792709615372474" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="783340038815548" type="sp42">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="779219789807222" type="sp42">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="328075158346413">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="891108677410300" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="864340916222082" type="sp42" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="442406410020930" type="sp42">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="367371552137522" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="903737899038526" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="296602153119081" type="sp43">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="108032348964847" type="sp43">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="548323457136420">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="939665826312717" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="648420428853909" type="sp43" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="757721453007284" type="sp43">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="491273744207070" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="224311020230211" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="479234398678858" type="box">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="473328125380086" type="NPC3">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="100772348918168" type="NPC3">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="548190615322391" type="NPC3">
+                            <param id="0" name="Speed">50</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="248243290355056" type="NPC3">
+                            <param id="0" name="Animation">&quot;Direita&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="598850866804557" type="posição_personagem">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="145203186319757">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="692875974361218" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="150153494533562" type="sp44" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="966441628997954" type="sp44">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="877495554954158" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="863174955191604" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="319499336231572" type="sp45">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="949653722641994" type="sp45">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="925108963656521">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="887189441734819" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="974650288828644" type="sp45" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="425197250405699" type="sp45">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="937297670502348" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="626356200678074" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="801250732893706" type="sp46">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="929099151818102" type="sp46">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="393882099063586">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="699027584742580" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="856890715584029" type="sp46" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="178694310877416" type="sp46">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="267220518601546" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="352684716515280" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="631225924000315" type="sp47">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="328521312443263" type="sp47">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="322567202416775">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="318387103634485" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="305317945936626" type="sp47" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="345113229817314" type="sp47">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="647961170091724" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="994730352879990" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="997407340434233" type="sp48">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="115140141333297" type="sp48">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="893463452993079">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="511190820703536" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="444605901579235" type="sp48" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="751694208119015" type="sp48">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="118681991359902" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="903750932575000" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="343694083727029" type="sp49">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="261289391130801" type="sp49">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="106582567167369">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="317102540096070" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="459344370979664" type="sp49" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="425800060787175" type="sp49">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="482428078962708" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="530284269975496" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="241347156553391" type="sp50">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="364474164792012" type="sp50">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="127489900416187">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="579719022187734" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="409030913609065" type="sp50" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="331060982303543" type="sp50">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="882033197875192" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="587767967789262" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="368758013383444" type="sp51">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="720811581755917" type="sp51">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="742931167513916">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="470548897109375" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="381970703253606" type="sp51" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="947657749413764" type="sp51">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="212043066579258" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="927669278976779" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="816366860095913" type="sp52">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="845276969260844" type="sp52">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="501639115759341">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="754646785337667" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="498484461077859" type="sp52" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="227797710087077" type="sp52">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="558609062324073" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="233436695072531" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="237444764728215" type="sp53">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="230692878910020" type="sp53">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="828244428367149">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="573877372620539" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="573078073736707" type="sp53" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="555953894779281" type="sp53">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="124968274773266" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="339886966923740" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="499263716483582" type="sp55">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="493193844388551" type="sp55">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="808268410673785">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="764774137411659" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="311391295788021" type="sp55" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="480543616234179" type="sp55">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="656999980364610" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="545594563214228" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="921192048448317" type="sp56">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="518489616110075" type="sp56">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="575540568622075">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="277778052512257" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="626007220087736" type="sp56" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="471807287433706" type="sp56">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="561644614607785" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="214453301031976" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="486595191027174" type="sp57">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="450334181590382" type="sp57">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113331036939917">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="877992636199115" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="881921359822216" type="sp57" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="707581598163737" type="sp57">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="308648087519144" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="464621208881567" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="348394180295313" type="sp58">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="590874373168962" type="sp58">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="590041993914698">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="898096489677897" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="601812041442059" type="sp58" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="952468632025350" type="sp58">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="599291079821570" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="911446268073282" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="402343042657819" type="sp59">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="638944475244148" type="sp59">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="268421788205513">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="656021716499016" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="119675379610468" type="sp59" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="522656411160326" type="sp59">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="407252865045684" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="857097937502714" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="459234948796045" type="sp60">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="848369965733719" type="sp60">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="144976046099216">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="971108556894685" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="422548403837463" type="sp60" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="290247871175071" type="sp60">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="341851447737415" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="579988567078782" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="402377155948353" type="sp61">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="752307213838369" type="sp61">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="617676066350512">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="963972263217533" type="Keyboard">
+                            <param id="0" name="Key">69 (E)</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="630191303727709" type="sp61" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="567227448244953" type="sp61">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="547314630617441" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="370011864687498" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="116731041137153" type="spclivro">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="955079848040384" type="posição_personagem">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="265845601099623" type="spclivro2">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="225607499836265">
             <conditions>
-                <condition id="0" name="On key pressed" sid="692875974361218" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="150153494533562" type="sp44" />
+                <condition id="-2" name="On start of layout" sid="227310955198359" type="System" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="966441628997954" type="sp44">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="877495554954158" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="863174955191604" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="319499336231572" type="sp45">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="949653722641994" type="sp45">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
+                <action id="-28" name="Set canvas size" sid="664979294771545" type="System">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">300</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="925108963656521">
+        <event-block sid="898884235307434">
             <conditions>
-                <condition id="0" name="On key pressed" sid="887189441734819" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
+                <condition id="0" name="On key pressed" sid="814852426103496" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="974650288828644" type="sp45" />
+                <condition id="-9" name="Is visible" sid="133289154642790" type="spclivro" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="425197250405699" type="sp45">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="937297670502348" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="626356200678074" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="801250732893706" type="sp46">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="929099151818102" type="sp46">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
+                <action id="-10" name="Add to" sid="789944896306962" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="393882099063586">
+        <event-block sid="124839727209131">
             <conditions>
-                <condition id="0" name="On key pressed" sid="699027584742580" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
+                <condition id="0" name="On key pressed" sid="615551330914792" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="856890715584029" type="sp46" />
+                <condition id="-9" name="Is visible" sid="162348875480823" type="spclivro" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="178694310877416" type="sp46">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="267220518601546" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="352684716515280" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="631225924000315" type="sp47">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="328521312443263" type="sp47">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
+                <action id="-11" name="Subtract from" sid="322906970617570" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="322567202416775">
+        <event-block sid="516181043168358">
             <conditions>
-                <condition id="0" name="On key pressed" sid="318387103634485" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
+                <condition id="-14" name="Compare variable" sid="728406646917084" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">-1</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="305317945936626" type="sp47" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="345113229817314" type="sp47">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="647961170091724" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="994730352879990" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="997407340434233" type="sp48">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="115140141333297" type="sp48">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
+                <action id="-9" name="Set value" sid="219118534259408" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="893463452993079">
+        <event-block sid="161503120487902">
             <conditions>
-                <condition id="0" name="On key pressed" sid="511190820703536" type="Keyboard">
-                    <param id="0" name="Key">69 (E)</param>
+                <condition id="-14" name="Compare variable" sid="229250220040763" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">0</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="444605901579235" type="sp48" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="751694208119015" type="sp48">
-                    <param id="0" name="Visibility">0</param>
+                <action id="-9" name="Set value" sid="447194109660144" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">-1</param>
                 </action>
-                <action id="0" name="Play" sid="118681991359902" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+            </actions>
+        </event-block>
+        <event-block sid="348609182597956">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="960084862595512" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="787723762270888" type="spclivro" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="589287047207669" type="spclivro">
+                    <param id="0" name="X">222</param>
+                    <param id="1" name="Y">69</param>
                 </action>
-                <action id="-16" name="Wait" sid="903750932575000" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="343694083727029" type="sp49">
+                <action id="-15" name="Set visible" sid="120508024283278" type="sp62">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-3" name="Set position" sid="261289391130801" type="sp49">
+                <action id="-15" name="Set visible" sid="999045571582265" type="sp63">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="113986094938622" type="sp62">
                     <param id="0" name="X">box.X-114</param>
                     <param id="1" name="Y">box.Y-15</param>
+                </action>
+                <action id="-3" name="Set position" sid="627751139526133" type="box">
+                    <param id="0" name="X">198</param>
+                    <param id="1" name="Y">262</param>
+                </action>
+                <action id="-9" name="Set value" sid="113587330227342" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Value">15</param>
+                </action>
+                <action id="1" name="Set visible" sid="445083329842810" type="barrap1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="1" name="Set visible" sid="628444106607445" type="barrap2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="804902104846203">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="657005310855099" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="838240181314053" type="spclivro" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="581425464583477" type="spclivro">
+                    <param id="0" name="X">253</param>
+                    <param id="1" name="Y">130</param>
+                </action>
+                <action id="-15" name="Set visible" sid="643269561146175" type="sp63">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="918936609048727" type="sp62">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="841326623063122" type="sp63">
+                    <param id="0" name="X">box.X-114</param>
+                    <param id="1" name="Y">box.Y-15</param>
+                </action>
+                <action id="-3" name="Set position" sid="634188219441133" type="box">
+                    <param id="0" name="X">198</param>
+                    <param id="1" name="Y">262</param>
+                </action>
+                <action id="-9" name="Set value" sid="486530496736723" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Value">25</param>
+                </action>
+                <action id="1" name="Set visible" sid="954226002545982" type="barrap2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="1" name="Set visible" sid="722854177127905" type="barrap1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="919361722492187">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="884674718933376" type="Keyboard">
+                    <param id="0" name="Key">69 (E)</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="751951187883682" type="spclivro" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="404797703602931" type="spclivro3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="466302998180720" type="spclivro3">
+                    <param id="0" name="Object">spclivro</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="552395704760524" type="spclivro">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="682142439958148" type="System">
+                    <param id="0" name="Seconds">0.7</param>
+                </action>
+                <action id="-15" name="Set visible" sid="499665117871057" type="spclivro2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="933728608484875" type="spclivro2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="102267753642431" type="posição_personagem">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="273687934697790" type="barrap1">
+                    <param id="0" name="Instance variable">a</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="876882658365523" type="barrap2">
+                    <param id="0" name="Instance variable">a</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="706400992490647">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="764966105909533" type="spclivro2" />
+                <condition id="-14" name="Compare variable" sid="948949990482140" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="195968747973950" type="spclivro2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="104458927197017" type="spclivro3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="253987363020542" type="posição_personagem">
+                    <param id="0" name="X">241.68426303219238</param>
+                    <param id="1" name="Y">91.0735600466617</param>
+                </action>
+                <action id="-15" name="Set visible" sid="199673062620965" type="box">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="891445991406474" type="sp62">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139732504265710">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="606781004351145" type="spclivro2" />
+                <condition id="-14" name="Compare variable" sid="564904437122269" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="628257154940740" type="spclivro2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="511071803170101" type="spclivro3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="876258275077258" type="posição_personagem">
+                    <param id="0" name="X">282.75097718846985</param>
+                    <param id="1" name="Y">153.58953238619304</param>
+                </action>
+                <action id="-15" name="Set visible" sid="714227328832869" type="box">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="205782572195512" type="sp63">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="591042518573024">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="502830470397327" type="barrap1">
+                    <param id="0" name="Instance variable">a</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="904098324156820" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="627418814565674" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="231673604344504" type="barrap1">
+                    <param id="0" name="Value">15-pclivroaux</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="948323204996960" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="3" name="Set progress" sid="143066111649062" type="barrap1">
+                    <param id="0" name="Value">15-pclivroaux</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="741105687357052">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="325215876958822" type="barrap2">
+                    <param id="0" name="Instance variable">a</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="144742536295333" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="499492384688426" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="369751119903360" type="barrap2">
+                    <param id="0" name="Value">25-pclivroaux</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="862822118160533" type="System">
+                    <param id="0" name="Variable">pclivroaux</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="3" name="Set progress" sid="501639706705988" type="barrap2">
+                    <param id="0" name="Value">25-pclivroaux</param>
                 </action>
             </actions>
         </event-block>

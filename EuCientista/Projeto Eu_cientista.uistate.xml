@@ -11,10 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Bibiliotecas</layout>
-        <layout active="1" order="3">Lab</layout>
+        <layout order="3">Lab</layout>
         <layout order="4">Corredores</layout>
         <layout order="6">Sala 1</layout>
-        <event-sheet order="1">Bibliotecas</event-sheet>
+        <event-sheet active="1" order="1">Bibliotecas</event-sheet>
         <event-sheet order="2">Lab</event-sheet>
         <event-sheet order="5">Corredores</event-sheet>
         <event-sheet order="7">Especial_sala01</event-sheet>
@@ -154,5 +154,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/parador2/" />
         <folder expanded="1" path="animation-folder/Desviador/" />
         <folder expanded="1" path="animation-folder/Idd/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/spclivro/" />
+        <folder expanded="1" path="animation-folder/spclivro2/" />
+        <folder expanded="1" path="animation-folder/spclivro3/" />
+        <folder expanded="1" path="animation-folder/atualizarframes/" />
     </folders-expanded>
 </c2uistate>
