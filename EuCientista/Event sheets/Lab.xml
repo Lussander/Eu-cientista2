@@ -1170,8 +1170,8 @@
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-3" name="Set position" sid="174547778988031" type="Cartaz">
-                            <param id="0" name="X">posição_personagem.X</param>
-                            <param id="1" name="Y">posição_personagem.Y</param>
+                            <param id="0" name="X">NPC3.X</param>
+                            <param id="1" name="Y">NPC3.Y</param>
                         </action>
                         <action id="-3" name="Set position" sid="980250962639787" type="P1">
                             <param id="0" name="X">posição_personagem.X-75</param>

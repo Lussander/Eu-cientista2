@@ -2657,6 +2657,64 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ship" sid="254350111470401">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961839458060895" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HO1" sid="494180684227171">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HO2" sid="239325072230482">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HO3" sid="492247264122742">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ship2" sid="532323593354053">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659843953273345" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\SeBUG\Animations\posição_personagem\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sp64" sid="239646229110116">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp65" sid="974727711546867">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp66" sid="719905261601464">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp67" sid="959836603309994">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp68" sid="633937344978026">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp69" sid="565911900800443">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp70" sid="659836667622737">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp71" sid="798085024466153">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp72" sid="123313949118619">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp73" sid="443948317200980">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sp74" sid="299307303236544">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
