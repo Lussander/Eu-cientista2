@@ -1732,6 +1732,9 @@
         </object-type>
         <object-type name="t_sala5" sid="904198378441472">
             <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="t" sid="554261462980028" type="number" />
+            </instance-variables>
         </object-type>
         <object-type name="tr_sala6" sid="242531081496937">
             <plugin id="Text" />

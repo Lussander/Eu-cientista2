@@ -1508,7 +1508,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="968557641548995" type="Exclamação_mapa">
                     <param id="0" name="X">737</param>
-                    <param id="1" name="Y">273</param>
+                    <param id="1" name="Y">212</param>
                 </action>
                 <action id="-15" name="Set visible" sid="896346676383696" type="Exclamação_mapa">
                     <param id="0" name="Visibility">1</param>

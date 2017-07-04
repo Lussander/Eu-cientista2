@@ -446,8 +446,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>128.690963745</x>
-                        <y>118.121154785</y>
+                        <x>126.913513184</x>
+                        <y>119.306785583</y>
                         <z>0</z>
                         <width>56.776992798</width>
                         <height>43.092849731</height>
@@ -627,6 +627,9 @@
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
+                    <instance-variables>
+                        <t>0</t>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

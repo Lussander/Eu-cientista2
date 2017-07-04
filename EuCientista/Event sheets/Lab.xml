@@ -3,67 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Lab</name>
     <events>
-        <variable constant="0" name="Lab" sid="436225350884141" static="0" type="number">0</variable>
-        <variable constant="0" name="auxesp" sid="482805502785977" static="0" type="number">0</variable>
-        <variable constant="0" name="especi" sid="645320145535718" static="0" type="number">0</variable>
-        <variable constant="0" name="auxjulg" sid="589164640011085" static="0" type="number">0</variable>
-        <variable constant="0" name="julg" sid="922194557058943" static="0" type="number">0</variable>
-        <variable constant="0" name="Dtp" sid="627199393215947" static="0" type="number">0</variable>
-        <variable constant="0" name="SeleP" sid="488771680213050" static="0" type="number">0</variable>
-        <variable constant="0" name="sn" sid="166396426264004" static="0" type="number">0</variable>
-        <variable constant="0" name="Tipo" sid="366911342261579" static="0" type="number">0</variable>
-        <event-block sid="287050145026078">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="918554925270025" type="System" />
-            </conditions>
-            <actions>
-                <action id="-28" name="Set canvas size" sid="664139162877681" type="System">
-                    <param id="0" name="Width">400</param>
-                    <param id="1" name="Height">300</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="910175751882340">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="745762219496273" type="System" />
-                <condition id="-14" name="Compare variable" sid="929866723372811" type="System">
-                    <param id="0" name="Variable">Açao</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">-1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Set Y" sid="590248130978677" type="box">
-                    <param id="0" name="Y">posição_personagem.Y+80</param>
-                </action>
-                <action id="-1" name="Set X" sid="212633322750461" type="box">
-                    <param id="0" name="X">posição_personagem.x</param>
-                </action>
-                <action id="-16" name="Wait" sid="212465983705302" type="System">
-                    <param id="0" name="Seconds">0.2</param>
-                </action>
-                <action id="-15" name="Set visible" sid="141645658593215" type="box">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="263830718215142" type="X">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="398812190622923" type="sp1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="483128631616142" type="sp1">
-                    <param id="0" name="X">box.X-160</param>
-                    <param id="1" name="Y">box.Y-25</param>
-                </action>
-                <action behavior="8Direction" id="5" name="Set acceleration" sid="530013499888269" type="posição_personagem">
-                    <param id="0" name="Acceleration">0</param>
-                </action>
-                <action behavior="8Direction" id="0" name="Stop" sid="347816374287026" type="posição_personagem" />
-                <action behavior="Solid" id="0" name="Set enabled" sid="880511040994033" type="Sprite20">
-                    <param id="0" name="State">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="697920007739628" title="Movimento_Final4">
             <sub-events>
                 <event-block sid="976807495026199">
@@ -267,6 +206,67 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <variable constant="0" name="Lab" sid="436225350884141" static="0" type="number">0</variable>
+        <variable constant="0" name="auxesp" sid="482805502785977" static="0" type="number">0</variable>
+        <variable constant="0" name="especi" sid="645320145535718" static="0" type="number">0</variable>
+        <variable constant="0" name="auxjulg" sid="589164640011085" static="0" type="number">0</variable>
+        <variable constant="0" name="julg" sid="922194557058943" static="0" type="number">0</variable>
+        <variable constant="0" name="Dtp" sid="627199393215947" static="0" type="number">0</variable>
+        <variable constant="0" name="SeleP" sid="488771680213050" static="0" type="number">0</variable>
+        <variable constant="0" name="sn" sid="166396426264004" static="0" type="number">0</variable>
+        <variable constant="0" name="Tipo" sid="366911342261579" static="0" type="number">0</variable>
+        <event-block sid="287050145026078">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="918554925270025" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="664139162877681" type="System">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">300</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="910175751882340">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="745762219496273" type="System" />
+                <condition id="-14" name="Compare variable" sid="929866723372811" type="System">
+                    <param id="0" name="Variable">Açao</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">-1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="590248130978677" type="box">
+                    <param id="0" name="Y">posição_personagem.Y+80</param>
+                </action>
+                <action id="-1" name="Set X" sid="212633322750461" type="box">
+                    <param id="0" name="X">posição_personagem.x</param>
+                </action>
+                <action id="-16" name="Wait" sid="212465983705302" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="141645658593215" type="box">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="263830718215142" type="X">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="398812190622923" type="sp1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="483128631616142" type="sp1">
+                    <param id="0" name="X">box.X-160</param>
+                    <param id="1" name="Y">box.Y-25</param>
+                </action>
+                <action behavior="8Direction" id="5" name="Set acceleration" sid="530013499888269" type="posição_personagem">
+                    <param id="0" name="Acceleration">0</param>
+                </action>
+                <action behavior="8Direction" id="0" name="Stop" sid="347816374287026" type="posição_personagem" />
+                <action behavior="Solid" id="0" name="Set enabled" sid="880511040994033" type="Sprite20">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block bookmark="1" sid="715788517038017">
             <conditions>
                 <condition id="-16" name="Is on layer" sid="497918443819207" type="posição_personagem">
@@ -342,6 +342,12 @@
                     <param id="1" name="Y">115.66598799858644</param>
                 </action>
                 <action id="-9" name="Destroy" sid="564649173137237" type="E" />
+                <action id="0" name="Play" sid="285351825546652" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="159747283771117">
@@ -383,6 +389,12 @@
                 <condition id="-9" name="Is visible" sid="697432772132135" type="sp1" />
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="822216550534059" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-15" name="Set visible" sid="377045584343217" type="sp1">
                     <param id="0" name="Visibility">0</param>
                 </action>
@@ -417,6 +429,12 @@
                 <action id="-3" name="Set position" sid="554661284070405" type="sp3">
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
+                </action>
+                <action id="0" name="Play" sid="291943383027253" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -462,6 +480,12 @@
                     <param id="1" name="Y">posição_personagem.Y-35</param>
                 </action>
                 <action id="-24" name="Move to top" sid="681416518117297" type="eprob" />
+                <action id="0" name="Play" sid="398653220057954" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="589598021106428">
@@ -497,6 +521,12 @@
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
                 </action>
+                <action id="0" name="Play" sid="751433416499945" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="177661855243129">
@@ -519,6 +549,12 @@
                 <action id="-3" name="Set position" sid="616728222411433" type="sp5">
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
+                </action>
+                <action id="0" name="Play" sid="538107879515761" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -580,6 +616,12 @@
                         <action id="-3" name="Set position" sid="423975907410854" type="tip4">
                             <param id="0" name="X">posição_personagem.X-75</param>
                             <param id="1" name="Y">posição_personagem.Y+26</param>
+                        </action>
+                        <action id="0" name="Play" sid="844538335030973" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -820,6 +862,12 @@
                             <param id="1" name="Y">box.Y</param>
                         </action>
                         <action id="-24" name="Move to top" sid="795622663933019" type="esn" />
+                        <action id="0" name="Play" sid="375431327906622" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="265628472693241">
@@ -942,6 +990,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="772439215505539" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="324565701691646">
@@ -966,6 +1020,12 @@
                         <action id="-15" name="Set visible" sid="369171310541237" type="etip">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="0" name="Play" sid="532172542085153" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="628642601436253">
@@ -988,6 +1048,12 @@
                         <action id="-3" name="Set position" sid="514529303207915" type="sp7">
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
+                        </action>
+                        <action id="0" name="Play" sid="220739678457226" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1012,6 +1078,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="968414252352310" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="835141925772353">
@@ -1034,6 +1106,12 @@
                         <action id="-3" name="Set position" sid="879668431087202" type="sp9">
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
+                        </action>
+                        <action id="0" name="Play" sid="985790346306644" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1058,6 +1136,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="668090756805489" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="658982107105521">
@@ -1080,6 +1164,12 @@
                         <action id="-3" name="Set position" sid="703159887259084" type="sp11">
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
+                        </action>
+                        <action id="0" name="Play" sid="737410840514135" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1104,6 +1194,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="185534965874425" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="827131309458088">
@@ -1127,6 +1223,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="745903446084652" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="366426120657497">
@@ -1149,6 +1251,12 @@
                         <action id="-3" name="Set position" sid="479603980487251" type="sp14">
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
+                        </action>
+                        <action id="0" name="Play" sid="235340354235112" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1212,6 +1320,12 @@
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-24" name="Move to top" sid="760207616954722" type="CP" />
+                        <action id="0" name="Play" sid="515043623576964" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="359112096357550">
@@ -1522,6 +1636,12 @@
                 <action id="-15" name="Set visible" sid="979339133871836" type="CP">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="0" name="Play" sid="348690138184405" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block disabled="1" sid="116492457308368">
@@ -1655,6 +1775,12 @@
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
                 </action>
+                <action id="0" name="Play" sid="236022246401571" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="350103542270997">
@@ -1677,6 +1803,12 @@
                 <action id="-3" name="Set position" sid="246803187598284" type="sp17">
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
+                </action>
+                <action id="0" name="Play" sid="638433949745090" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -1731,6 +1863,12 @@
                 <action id="-3" name="Set position" sid="537857105692472" type="sp18">
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
+                </action>
+                <action id="0" name="Play" sid="565871012139362" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -2053,6 +2191,12 @@
                     <param id="0" name="X">box.X-160</param>
                     <param id="1" name="Y">box.Y-25</param>
                 </action>
+                <action id="0" name="Play" sid="467064881550888" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="227380085991258" title="Conversa Pré julgamento">
@@ -2067,6 +2211,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="493238705694842" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="847549707524811" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="587256496870464" type="sp19">
                             <param id="0" name="Visibility">0</param>
@@ -2091,6 +2241,12 @@
                         <action id="-16" name="Wait" sid="317829176715125" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="500857194092759" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="863574031308693" type="sp20">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -2113,6 +2269,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="131254015312139" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="342719339856565" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="486357051835345" type="sp21">
                             <param id="0" name="Visibility">0</param>
@@ -2137,6 +2299,12 @@
                         <action id="-16" name="Wait" sid="569828584512691" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="678707061944804" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="197939475910491" type="sp22">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -2159,6 +2327,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="392460540241172" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="367141564079000" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="904352263067139" type="sp23">
                             <param id="0" name="Visibility">0</param>
@@ -2195,6 +2369,12 @@
                         </action>
                         <action id="-15" name="Set visible" sid="517488925331359" type="SJU">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="148298875137103" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="814067990837249" type="P2_1">
                             <param id="0" name="Visibility">1</param>
@@ -3156,6 +3336,12 @@
                         <action id="-16" name="Wait" sid="213003420003622" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="191589023910145" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="329919100053440" type="sp25">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -3178,6 +3364,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="908355699153360" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="768405041487450" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="524192207220567" type="sp26">
                             <param id="0" name="Visibility">0</param>
@@ -3202,6 +3394,12 @@
                         <action id="-16" name="Wait" sid="692909336389286" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="149434834529831" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="713245393125082" type="sp27">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -3223,6 +3421,12 @@
                     </conditions>
                     <actions>
                         <action id="-24" name="Move to top" sid="643090669038127" type="SES" />
+                        <action id="0" name="Play" sid="670540353763398" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-16" name="Wait" sid="227200883081343" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
@@ -4634,6 +4838,12 @@
                             <param id="0" name="X">box.X-160</param>
                             <param id="1" name="Y">box.Y-25</param>
                         </action>
+                        <action id="0" name="Play" sid="245072970641838" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -4650,6 +4860,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="742192081949389" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="382238332158725" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="973344862080809" type="sp29">
                             <param id="0" name="Visibility">0</param>
@@ -4674,6 +4890,12 @@
                         <action id="-16" name="Wait" sid="520241984235602" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="722661907768721" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="651272452580257" type="sp30">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -4696,6 +4918,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="139114531859623" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="427502846928004" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="982639783209186" type="sp31">
                             <param id="0" name="Visibility">0</param>
@@ -4720,6 +4948,12 @@
                         <action id="-16" name="Wait" sid="272571713590579" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="0" name="Play" sid="858336627947859" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="593850704780562" type="sp32">
                             <param id="0" name="Visibility">0</param>
                         </action>
@@ -4743,15 +4977,21 @@
                         <action id="-16" name="Wait" sid="553529961537449" type="System">
                             <param id="0" name="Seconds">0.1</param>
                         </action>
+                        <action id="-3" name="Set position" sid="351388288323120" type="sp34">
+                            <param id="0" name="X">box.X-160</param>
+                            <param id="1" name="Y">box.Y-25</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="260628476704367" type="sp33">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-15" name="Set visible" sid="287526987420477" type="sp34">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-3" name="Set position" sid="351388288323120" type="sp34">
-                            <param id="0" name="X">box.X-160</param>
-                            <param id="1" name="Y">box.Y-25</param>
+                        <action id="0" name="Play" sid="520850150679887" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -4765,6 +5005,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="352082935811364" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Play" sid="188307381939306" type="Audio">
+                            <param id="0" name="Audio file">caixa-diálogo-2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-24" name="Move to top" sid="690857568787856" type="Player" />
                         <action id="-25" name="Move to bottom" sid="634888669793317" type="Sprite20" />

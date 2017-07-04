@@ -268,8 +268,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>194</x>
-                        <y>379</y>
+                        <x>249</x>
+                        <y>388</y>
                         <z>0</z>
                         <width>20</width>
                         <height>30</height>
@@ -308,8 +308,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>472</x>
-                        <y>278</y>
+                        <x>321</x>
+                        <y>587</y>
                         <z>0</z>
                         <width>7.576441765</width>
                         <height>7.018174171</height>
@@ -912,8 +912,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>552</x>
-                        <y>214</y>
+                        <x>761</x>
+                        <y>212</y>
                         <z>0</z>
                         <width>25.00399971</width>
                         <height>20.896999359</height>
@@ -944,6 +944,34 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>0.600000024</opacity>
+                    </world>
+                </instance>
+                <instance type="Exclamação_mapa" uid="542">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <travar>0</travar>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>550</x>
+                        <y>213</y>
+                        <z>0</z>
+                        <width>25.00399971</width>
+                        <height>20.896999359</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

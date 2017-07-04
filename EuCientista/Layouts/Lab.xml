@@ -412,7 +412,7 @@
                 </instance>
                 <instance type="Cartaz1" uid="101">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -420,11 +420,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>751.831054688</x>
-                        <y>-124.76965332</y>
+                        <x>738.831054688</x>
+                        <y>-122.253326416</y>
                         <z>0</z>
-                        <width>152</width>
-                        <height>169</height>
+                        <width>178</width>
+                        <height>174</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.503268003</hotspotY>
