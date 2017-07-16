@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>572.952</position-x>
-        <position-y>444.093</position-y>
-        <position-z>194.432</position-z>
-        <lookat-x>572.952</lookat-x>
-        <lookat-y>444.093</lookat-y>
+        <position-x>135.748</position-x>
+        <position-y>136.531</position-y>
+        <position-z>26.2737</position-z>
+        <lookat-x>135.748</lookat-x>
+        <lookat-y>136.531</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -23,10 +23,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="falas" />
+    <active-layer name="sup0" />
     <layers>
         <layer locked="1" name="Chão" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="parede" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="solida" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="sup0" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="sup1" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Layer 0" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="falas" parallax-in-editor="0" visible="1" />
     </layers>

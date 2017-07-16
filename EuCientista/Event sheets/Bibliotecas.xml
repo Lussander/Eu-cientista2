@@ -845,11 +845,22 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-24" name="Move to top" sid="600242225589040" type="Player" />
+                <action id="-8" name="Set angle" sid="979008833013566" type="posição_personagem">
+                    <param id="0" name="Angle">270</param>
+                </action>
                 <action behavior="8Direction" id="8" name="Set enabled" sid="644462555529676" type="posição_personagem">
                     <param id="0" name="State">0</param>
                 </action>
+                <action id="-3" name="Set position" sid="389524111007471" type="box">
+                    <param id="0" name="X">215.459</param>
+                    <param id="1" name="Y">232.981</param>
+                </action>
+                <action id="-15" name="Set visible" sid="702350546300369" type="Exclamação_Biblioteca">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="577574499450225" type="System">
-                    <param id="0" name="Seconds">1</param>
+                    <param id="0" name="Seconds">0.5</param>
                 </action>
                 <action id="0" name="Play" sid="219300165599537" type="Audio">
                     <param id="0" name="Audio file">caixa-diálogo-1</param>
@@ -857,138 +868,25 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-15" name="Set visible" sid="702350546300369" type="Exclamação_Biblioteca">
+                <action id="-15" name="Set visible" sid="196311806563301" type="sp36">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="196353123135297" type="System">
-                    <param id="0" name="Seconds">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="714952127270660" type="Exclamação_Biblioteca">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="326291622536602" type="NPC3">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="763492016303766" type="NPC3">
-                    <param id="0" name="Angle">180</param>
-                </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="847475491728114" type="NPC3">
-                    <param id="0" name="Speed">50</param>
-                </action>
-                <action id="4" name="Set animation" sid="493868223603132" type="NPC3">
-                    <param id="0" name="Animation">&quot;Esquerda&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="643466121752408">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="849479168626298" type="parador">
-                    <param id="0" name="Object">NPC3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Bullet" id="0" name="Set speed" sid="650206252279200" type="NPC3">
-                    <param id="0" name="Speed">0</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="839877918360965" type="NPC3">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="5" name="Set frame" sid="190984495620260" type="NPC3">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-                <action id="2" name="Stop" sid="652516583444341" type="NPC3" />
-                <action id="6" name="Stop" sid="493508952134999" type="Audio">
-                    <param id="0" name="Tag">&quot;Nudes&quot;</param>
-                </action>
-                <action id="-15" name="Set visible" sid="157299042205009" type="sp36">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="846150195919018" type="sp36">
+                <action id="-3" name="Set position" sid="184320473543188" type="sp36">
                     <param id="0" name="X">box.X-114</param>
                     <param id="1" name="Y">box.Y-15</param>
                 </action>
-                <action id="-15" name="Set visible" sid="572548647021856" type="box">
+                <action id="-15" name="Set visible" sid="639457571470444" type="box">
                     <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="757647122818833">
-            <conditions>
-                <condition behavior="Bullet" id="0" name="Compare speed" sid="592847725789453" type="NPC3">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Speed">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="934474391306884" type="Audio">
-                    <param id="0" name="Audio file">Passos</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;Nudes&quot;</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="899089028159222">
             <conditions>
                 <condition id="-1" name="Every tick" sid="380448634925963" type="System" />
-                <condition id="-14" name="Compare variable" sid="806676963490842" type="System">
-                    <param id="0" name="Variable">Açao</param>
-                    <param id="1" name="Comparison">1</param>
-                    <param id="2" name="Value">-1</param>
-                </condition>
             </conditions>
             <actions>
-                <action disabled="1" id="-2" name="Set Y" sid="466993880131313" type="box">
-                    <param id="0" name="Y">posição_personagem.Y+35</param>
-                </action>
-                <action disabled="1" id="-1" name="Set X" sid="347618677208018" type="box">
-                    <param id="0" name="X">posição_personagem.x+75</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="113610261870858">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="658194178267471" type="Desviador">
-                    <param id="0" name="Object">NPC3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="418624222464108" type="NPC3">
-                    <param id="0" name="Angle">270</param>
-                </action>
-                <action id="4" name="Set animation" sid="760694298867194" type="NPC3">
-                    <param id="0" name="Animation">&quot;Cima&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="994195056520558" type="NPC3">
-                    <param id="0" name="Speed">30</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="501911474525148">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="521654524808698" type="parador2">
-                    <param id="0" name="Object">NPC3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="582406446798467" type="NPC3">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="485129769729480" type="NPC3">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="396578654672778" type="System">
-                    <param id="0" name="Seconds">0.1</param>
-                </action>
-                <action id="2" name="Stop" sid="545452950540457" type="NPC3" />
-                <action id="-15" name="Set visible" sid="828906828526605" type="Exclamação_Biblioteca">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="613694996461392" type="Exclamação_Biblioteca">
-                    <param id="0" name="X">NPC3.X</param>
-                    <param id="1" name="Y">NPC3.Y-23</param>
+                <action id="-2" name="Set Y" sid="466993880131313" type="box">
+                    <param id="0" name="Y">232.981</param>
                 </action>
             </actions>
         </event-block>
@@ -1003,45 +901,32 @@
                 <condition id="-9" name="Is visible" sid="243913997064761" type="Exclamação_Biblioteca" />
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="548322917760066" type="box">
-                    <param id="0" name="Y">297</param>
-                </action>
-                <action id="-1" name="Set X" sid="823774193032297" type="box">
-                    <param id="0" name="X">195</param>
-                </action>
-                <action id="-15" name="Set visible" sid="798224807079500" type="sp44">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="583459708837670" type="sp44">
-                    <param id="0" name="X">box.X-114</param>
-                    <param id="1" name="Y">box.Y-15</param>
-                </action>
-                <action id="-15" name="Set visible" sid="473246886437902" type="box">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-15" name="Set visible" sid="673959473347948" type="sp42">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="0" name="Play" sid="462936207644664" type="Audio">
-                    <param id="0" name="Audio file">caixa-diálogo-1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
                 <action behavior="8Direction" id="8" name="Set enabled" sid="782207107359712" type="posição_personagem">
                     <param id="0" name="State">0</param>
                 </action>
                 <action id="2" name="Stop" sid="979908271285801" type="Player" />
                 <action behavior="8Direction" id="0" name="Stop" sid="497286919484091" type="posição_personagem" />
-                <action id="4" name="Set animation" sid="961362795844319" type="NPC3">
-                    <param id="0" name="Animation">&quot;baixo&quot;</param>
-                    <param id="1" name="From">0</param>
-                </action>
-                <action id="6" name="Set speed" sid="717498246314008" type="NPC3">
-                    <param id="0" name="Speed">0</param>
-                </action>
                 <action id="-15" name="Set visible" sid="895126326104225" type="Exclamação_Biblioteca">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="160259702858892" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Play" sid="418250335568035" type="Audio">
+                    <param id="0" name="Audio file">caixa-diálogo-1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="451121171482586" type="sp37">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="943687437485328" type="sp37">
+                    <param id="0" name="X">box.X-114</param>
+                    <param id="1" name="Y">box.Y-15</param>
+                </action>
+                <action id="-15" name="Set visible" sid="694506525131267" type="box">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
@@ -1055,24 +940,17 @@
                         <condition id="-9" name="Is visible" sid="320403854837096" type="sp36" />
                     </conditions>
                     <actions>
+                        <action id="-16" name="Wait" sid="465856587475775" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="149986362697787" type="sp36">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="0" name="Play" sid="418250335568035" type="Audio">
-                            <param id="0" name="Audio file">caixa-diálogo-1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        <action id="-15" name="Set visible" sid="264668189573275" type="box">
+                            <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="160259702858892" type="System">
-                            <param id="0" name="Seconds">0.2</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="451121171482586" type="sp37">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="943687437485328" type="sp37">
-                            <param id="0" name="X">box.X-114</param>
-                            <param id="1" name="Y">box.Y-15</param>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="637959056298216" type="posição_personagem">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1261,6 +1139,12 @@
                         <action id="-15" name="Set visible" sid="757721453007284" type="sp43">
                             <param id="0" name="Visibility">0</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="479234398678858" type="box">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="343249807707122" type="sp42">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                         <action id="0" name="Play" sid="491273744207070" type="Audio">
                             <param id="0" name="Audio file">caixa-diálogo-2</param>
                             <param id="2" name="Loop">0</param>
@@ -1268,26 +1152,17 @@
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="224311020230211" type="System">
-                            <param id="0" name="Seconds">0.2</param>
+                            <param id="0" name="Seconds">0.5</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="479234398678858" type="box">
-                            <param id="0" name="Visibility">0</param>
+                        <action id="-15" name="Set visible" sid="572547987925709" type="sp44">
+                            <param id="0" name="Visibility">1</param>
                         </action>
-                        <action behavior="Bullet" id="5" name="Set enabled" sid="473328125380086" type="NPC3">
-                            <param id="0" name="State">1</param>
+                        <action id="-3" name="Set position" sid="491970867448325" type="sp44">
+                            <param id="0" name="X">box.X-114</param>
+                            <param id="1" name="Y">box.Y-15</param>
                         </action>
-                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="100772348918168" type="NPC3">
-                            <param id="0" name="Angle">0</param>
-                        </action>
-                        <action behavior="Bullet" id="0" name="Set speed" sid="548190615322391" type="NPC3">
-                            <param id="0" name="Speed">50</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="248243290355056" type="NPC3">
-                            <param id="0" name="Animation">&quot;Direita&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action behavior="8Direction" id="8" name="Set enabled" sid="598850866804557" type="posição_personagem">
-                            <param id="0" name="State">1</param>
+                        <action id="-15" name="Set visible" sid="214739691228492" type="box">
+                            <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1763,17 +1638,17 @@
                         <condition id="-9" name="Is visible" sid="630191303727709" type="sp61" />
                     </conditions>
                     <actions>
+                        <action id="-16" name="Wait" sid="370011864687498" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="567227448244953" type="sp61">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="0" name="Play" sid="547314630617441" type="Audio">
-                            <param id="0" name="Audio file">caixa-diálogo-1</param>
+                            <param id="0" name="Audio file">caixa-diálogo-2</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="370011864687498" type="System">
-                            <param id="0" name="Seconds">0.2</param>
                         </action>
                         <action id="-15" name="Set visible" sid="116731041137153" type="spclivro">
                             <param id="0" name="Visibility">1</param>
@@ -1813,6 +1688,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="465859727514020">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="390983579147964" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="161895578720313" type="spclivro" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="347874677586306" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="124839727209131">
             <conditions>
                 <condition id="0" name="On key pressed" sid="615551330914792" type="Keyboard">
@@ -1822,6 +1711,20 @@
             </conditions>
             <actions>
                 <action id="-11" name="Subtract from" sid="322906970617570" type="System">
+                    <param id="0" name="Variable">pclivrov</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="632601036628525">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="947954648393112" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="192633566067977" type="spclivro" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="400870770475164" type="System">
                     <param id="0" name="Variable">pclivrov</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -1868,8 +1771,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="589287047207669" type="spclivro">
-                    <param id="0" name="X">222</param>
-                    <param id="1" name="Y">69</param>
+                    <param id="0" name="X">37.294</param>
+                    <param id="1" name="Y">110.229</param>
                 </action>
                 <action id="-15" name="Set visible" sid="120508024283278" type="sp62">
                     <param id="0" name="Visibility">1</param>
@@ -1880,10 +1783,6 @@
                 <action id="-3" name="Set position" sid="113986094938622" type="sp62">
                     <param id="0" name="X">box.X-114</param>
                     <param id="1" name="Y">box.Y-15</param>
-                </action>
-                <action id="-3" name="Set position" sid="627751139526133" type="box">
-                    <param id="0" name="X">198</param>
-                    <param id="1" name="Y">262</param>
                 </action>
                 <action id="-9" name="Set value" sid="113587330227342" type="System">
                     <param id="0" name="Variable">pclivroaux</param>
@@ -1908,8 +1807,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="581425464583477" type="spclivro">
-                    <param id="0" name="X">253</param>
-                    <param id="1" name="Y">130</param>
+                    <param id="0" name="X">335.792</param>
+                    <param id="1" name="Y">120.948</param>
                 </action>
                 <action id="-15" name="Set visible" sid="643269561146175" type="sp63">
                     <param id="0" name="Visibility">1</param>
@@ -1920,10 +1819,6 @@
                 <action id="-3" name="Set position" sid="841326623063122" type="sp63">
                     <param id="0" name="X">box.X-114</param>
                     <param id="1" name="Y">box.Y-15</param>
-                </action>
-                <action id="-3" name="Set position" sid="634188219441133" type="box">
-                    <param id="0" name="X">198</param>
-                    <param id="1" name="Y">262</param>
                 </action>
                 <action id="-9" name="Set value" sid="486530496736723" type="System">
                     <param id="0" name="Variable">pclivroaux</param>
@@ -1994,14 +1889,17 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-3" name="Set position" sid="253987363020542" type="posição_personagem">
-                    <param id="0" name="X">241.68426303219238</param>
-                    <param id="1" name="Y">91.0735600466617</param>
+                    <param id="0" name="X">38.60032146355342</param>
+                    <param id="1" name="Y">116.43890896998934</param>
                 </action>
                 <action id="-15" name="Set visible" sid="199673062620965" type="box">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="891445991406474" type="sp62">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-8" name="Set angle" sid="592563745099016" type="posição_personagem">
+                    <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
@@ -2022,14 +1920,17 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-3" name="Set position" sid="876258275077258" type="posição_personagem">
-                    <param id="0" name="X">282.75097718846985</param>
-                    <param id="1" name="Y">153.58953238619304</param>
+                    <param id="0" name="X">333.90690084256215</param>
+                    <param id="1" name="Y">120.80959012926158</param>
                 </action>
                 <action id="-15" name="Set visible" sid="714227328832869" type="box">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="205782572195512" type="sp63">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-8" name="Set angle" sid="572968952903955" type="posição_personagem">
+                    <param id="0" name="Angle">270</param>
                 </action>
             </actions>
         </event-block>
@@ -2114,30 +2015,31 @@
                 <action id="-16" name="Wait" sid="331519580758478" type="System">
                     <param id="0" name="Seconds">0.5</param>
                 </action>
-                <action id="-1" name="Set X" sid="244459818374540" type="posição_personagem">
-                    <param id="0" name="X">217.3463386772915</param>
+                <action id="-8" name="Set angle" sid="363328909502700" type="posição_personagem">
+                    <param id="0" name="Angle">180</param>
                 </action>
-                <action id="-2" name="Set Y" sid="504862389716409" type="posição_personagem">
-                    <param id="0" name="Y">224.12334785085054</param>
+                <action id="-3" name="Set position" sid="244459818374540" type="posição_personagem">
+                    <param id="0" name="X">50.271259451813904</param>
+                    <param id="1" name="Y">150.73302087614144</param>
                 </action>
                 <action id="-15" name="Set visible" sid="214174715071790" type="Cartaz">
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-3" name="Set position" sid="218800330351847" type="Cartaz">
-                    <param id="0" name="X">posição_personagem.X</param>
-                    <param id="1" name="Y">posição_personagem.Y</param>
+                    <param id="0" name="X">194.751</param>
+                    <param id="1" name="Y">106.472</param>
                 </action>
                 <action id="-3" name="Set position" sid="395739360326681" type="HO1">
-                    <param id="0" name="X">posição_personagem.X-75</param>
-                    <param id="1" name="Y">posição_personagem.Y-36</param>
+                    <param id="0" name="X">Cartaz.X-75</param>
+                    <param id="1" name="Y">Cartaz.Y-36</param>
                 </action>
                 <action id="-3" name="Set position" sid="776130475340097" type="HO2">
-                    <param id="0" name="X">posição_personagem.X-75</param>
-                    <param id="1" name="Y">posição_personagem.Y-14</param>
+                    <param id="0" name="X">Cartaz.X-75</param>
+                    <param id="1" name="Y">Cartaz.Y-14</param>
                 </action>
                 <action id="-3" name="Set position" sid="603075224520801" type="HO3">
-                    <param id="0" name="X">posição_personagem.X-75</param>
-                    <param id="1" name="Y">posição_personagem.Y+8</param>
+                    <param id="0" name="X">Cartaz.X-75</param>
+                    <param id="1" name="Y">Cartaz.Y+8</param>
                 </action>
                 <action id="-15" name="Set visible" sid="125207681680095" type="ship">
                     <param id="0" name="Visibility">1</param>
@@ -2194,8 +2096,8 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="905987002224065" type="ship">
-                    <param id="0" name="X">posição_personagem.X-80</param>
-                    <param id="1" name="Y">posição_personagem.Y-36-22*hipo+3</param>
+                    <param id="0" name="X">Cartaz.X-80</param>
+                    <param id="1" name="Y">Cartaz.Y-36-22*hipo+3</param>
                 </action>
             </actions>
         </event-block>
@@ -2565,6 +2467,44 @@
                 </action>
                 <action id="-15" name="Set visible" sid="641667406735085" type="box">
                     <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="181318250593280">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="633829553852331" type="posição_personagem">
+                    <param id="0" name="Object">PortaDaBiblioteca</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="247621253836927" type="System">
+                    <param id="0" name="Layout">Corredores</param>
+                </action>
+                <action id="-9" name="Set value" sid="185545078722622" type="System">
+                    <param id="0" name="Variable">salas</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="744018079813098">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="930144910432162" type="Player">
+                    <param id="0" name="Object">modlayer</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="594473992395919" type="Player">
+                    <param id="0" name="Layer">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="171147087625191">
+            <conditions>
+                <condition id="-22" name="Else" sid="375453113310476" type="System" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="220088871295659" type="Player">
+                    <param id="0" name="Layer">4</param>
                 </action>
             </actions>
         </event-block>

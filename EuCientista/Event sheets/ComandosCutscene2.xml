@@ -225,6 +225,13 @@
                 <action id="-15" name="Set visible" sid="634285325353513" type="AperteX">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-8" name="Set angle" sid="138746629373321" type="posição_personagem">
+                    <param id="0" name="Angle">270</param>
+                </action>
+                <action id="-3" name="Set position" sid="800819616186840" type="posição_personagem">
+                    <param id="0" name="X">323.4002075195313</param>
+                    <param id="1" name="Y">120.37307470111095</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="284612312703472">

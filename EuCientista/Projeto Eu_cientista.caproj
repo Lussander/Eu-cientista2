@@ -28,6 +28,7 @@
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -475,6 +476,9 @@
             <behaviors>
                 <behavior-type name="Solid" sid="711771324710670">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="271061676182899">
+                    <behavior id="bound" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -1574,8 +1578,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500418149410341" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Luciano\Desktop\Cutscene\Game Boy GBC - Harvest Moon GBC 2 - Font &amp; Message Box.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500418149410341" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503268" original-source="C:\Users\Usuario\Documents\GitHub\Eu-cientista2\EuCientista\Animations\Cartaz1\Default\000.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2191,7 +2195,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="1" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="114205265290087" speed="5">
+                <animation framecount="3" loop="0" name="Cima" pingpong="0" repeatcount="1" repeatto="0" sid="114205265290087" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Cima\NPC03_05.png">
                         <collision-poly>
                             <point x="0.0460069" y="0.592593" />
@@ -2243,7 +2247,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="3" loop="1" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="852213163598338" speed="5">
+                <animation framecount="3" loop="0" name="Direita" pingpong="0" repeatcount="1" repeatto="0" sid="852213163598338" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Lima_e_Rocha\Desktop\Projeto Eu Cientista\NPC3\Direita\NPC03_11.png">
                         <collision-poly>
                             <point x="0.0460069" y="0.592593" />
@@ -2717,6 +2721,39 @@
         </object-type>
         <object-type name="sp74" sid="299307303236544">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Tilemap10" sid="117712723901515">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Usuario\Desktop\Biblioteca.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap11" sid="128753707213116">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="786360676426016">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Usuario\Desktop\Biblioteca.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap12" sid="494892747528394">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Usuario\Desktop\Biblioteca.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap13" sid="580392936826676">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Usuario\Desktop\Biblioteca.png" />
+            <tiles />
+        </object-type>
+        <object-type name="modlayer" sid="983212977881103">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="118976290307828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

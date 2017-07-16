@@ -386,6 +386,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="778165289305089">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="777372130025097" type="Player">
+                            <param id="0" name="Object">Porta_para_aBilbioteca</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="770055218507558" type="System">
+                            <param id="0" name="Layout">Bibiliotecas</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-block sid="688213261214050">
@@ -554,6 +566,25 @@
                     <param id="1" name="Y">280.58320908109647</param>
                 </action>
                 <action id="-9" name="Set value" sid="325557082426833" type="System">
+                    <param id="0" name="Variable">salas</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582403565411307">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="220802473269338" type="System">
+                    <param id="0" name="Variable">salas</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="998761878411130" type="posição_personagem">
+                    <param id="0" name="X">758.1312607920654</param>
+                    <param id="1" name="Y">259.875161521116</param>
+                </action>
+                <action id="-9" name="Set value" sid="675936669254759" type="System">
                     <param id="0" name="Variable">salas</param>
                     <param id="1" name="Value">0</param>
                 </action>
@@ -1460,18 +1491,6 @@
                 <action id="-9" name="Set value" sid="267227674995266" type="System">
                     <param id="0" name="Variable">SDP</param>
                     <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="778165289305089">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="777372130025097" type="Player">
-                    <param id="0" name="Object">Porta_para_aBilbioteca</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="770055218507558" type="System">
-                    <param id="0" name="Layout">Bibiliotecas</param>
                 </action>
             </actions>
         </event-block>
